@@ -54,7 +54,7 @@ const Nav = () => {
                                     <li className='relative'><a href='#Pricing' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base' onClick={closeMenu}>FAQ’s</a></li>
                                 </ul>
                                 <div className='block lg:hidden mt-4'>
-                                    <button className='ff_kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] bg-[#35A035] w-[103px]'>Sign Up</button>
+                                    <button className='ff_kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] hover:bg-black bg-[#35A035] w-[103px] duration-300'>Sign Up</button>
                                 </div>
                             </div>
 
@@ -71,7 +71,7 @@ const Nav = () => {
                     </div>
 
                     <div className='lg:block hidden'>
-                        <button className='ff_kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] bg-[#35A035] w-[103px]'>Sign Up</button>
+                        <button className='ff_kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] bg-[#35A035] w-[103px] hover:bg-black duration-300'>Sign Up</button>
                     </div>
 
                     <div className='lg:hidden block z-1'>

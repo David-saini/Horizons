@@ -22,11 +22,11 @@ const Footer = () => {
                     </div>
 
                     <ul className='my-5 sm:my-6 md:my-8 flex items-center justify-center gap-5 sm:gap-6 flex-wrap'>
-                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60'>About Us</a></li>
-                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60'>Destinations</a></li>
-                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60'>Our Services</a></li>
-                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60'>Privacy Policy</a></li>
-                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60'>Terms of Use</a></li>
+                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60 hover:opacity-100 duration-300 hover:text-lightgreen'>About Us</a></li>
+                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60 hover:opacity-100 duration-300 hover:text-lightgreen'>Destinations</a></li>
+                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60 hover:opacity-100 duration-300 hover:text-lightgreen'>Our Services</a></li>
+                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60 hover:opacity-100 duration-300 hover:text-lightgreen'>Privacy Policy</a></li>
+                        <li><a href="#" className='text-white ff_kanit font-light text-base leading-[150%] opacity-60 hover:opacity-100 duration-300 hover:text-lightgreen'>Terms of Use</a></li>
                     </ul>
 
                     <img className='w-full' src={FooterLine} alt="FooterLine" />

@@ -159,7 +159,7 @@ const Vaccation = () => {
                 </div>
 
                 <div className='mt-6 md:mt-8 flex itens-center justify-center'>
-                    <button className='ff_kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] bg-[#35A035] duration-300 '>View All</button>
+                    <button className='ff_kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] bg-[#35A035] duration-300 hover:bg-black'>View All</button>
                 </div>
 
             </div>

@@ -56,3 +56,20 @@
 .vacationcard_shadow {
     box-shadow: 4.139534950256348px 4.139534950256348px 16.55813980102539px 0px #00000029;
 }
+
+.footer_icons svg rect {
+    fill: #359F35;
+}
+
+.footer_icons svg path {
+    fill: white;
+}
+
+.footer_icons svg:hover path {
+    fill: #359F35;
+    transition: all 300ms linear;
+}
+
+.footer_icons svg rect:hover {
+    fill: #fff;
+}

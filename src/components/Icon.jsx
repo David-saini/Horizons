@@ -14,7 +14,7 @@ export const Facebook = () => {
     return (
         <div className="footer_icons">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="32" rx="16" fill="#359F35" />
+                <rect width="32" height="32" rx="16" fill="none" />
                 <path d="M13.7088 25.4555V16.5828H11.3555V13.3882H13.7088V10.6596C13.7088 8.51543 15.099 6.54639 18.3021 6.54639C19.599 6.54639 20.5581 6.67034 20.5581 6.67034L20.4825 9.65355C20.4825 9.65355 19.5045 9.64406 18.4372 9.64406C17.2821 9.64406 17.097 10.1747 17.097 11.0555V13.3882H20.5743L20.423 16.5828H17.097V25.4555H13.7088Z" fill="#FFFDFE" />
             </svg>
         </div>
@@ -47,7 +47,7 @@ export const LinkedIn = () => {
 };
 export const Youtube = () => {
     return (
-        <div className="footer_icons">
+        <div className="">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_104_1038)">
                     <rect width="32" height="32" rx="16" fill="#FFFDFE" />
