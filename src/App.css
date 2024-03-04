@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.ff_kanit {
+    font-family: "kanit";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header_bg {
+    background: url(/src/assets/Image/webp/header_bg.webp);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.backdrop {
+    backdrop-filter: blur(10px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* navbar */
+.nav-fix {
+    position: fixed;
+    width: 100%;
+    background-color: skyblue;
+    top: 0%;
+    z-index: 999 !important;
+    left: -100%;
+    transition: all 500ms linear;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.show-nav {
+    position: fixed;
+    width: 100%;
+    background-color: skyblue;
+    top: 0;
+    left: 0;
+    z-index: 999 !important;
+    transition: all 500ms linear;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-fix ul {
+    flex-direction: column;
+    gap: 24px;
+}
+
+.show-nav ul {
+    flex-direction: column;
+    gap: 24px;
+}
+
+.vacationcard_shadow {
+    box-shadow: 4.139534950256348px 4.139534950256348px 16.55813980102539px 0px #00000029;
 }
