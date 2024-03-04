@@ -53,6 +53,10 @@
     gap: 24px;
 }
 
+.input_card {
+    box-shadow: 4px 4px 16px 0px #00000029;
+}
+
 .vacationcard_shadow {
     box-shadow: 4.139534950256348px 4.139534950256348px 16.55813980102539px 0px #00000029;
 }
@@ -72,4 +76,10 @@
 
 .footer_icons svg rect:hover {
     fill: #fff;
+}
+
+@media (min-width:1921px) {
+    .min_h_screen {
+        min-height: 100vh;
+    }
 }
