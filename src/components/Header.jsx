@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderVector from "../assets/Image/webp/headervector.webp"
 import LocationIcon from "../assets/Image/webp/LocationIcon.webp"
 import CelenderIcon from "../assets/Image/png/celendervector.png"
-import arrow from "../assets/Image/png/arrowdown.png"
+import PeopleIcon from "../assets/Image/webp/Group.png"
 import search from "../assets/Image/webp/search.webp"
 
 const Header = () => {
@@ -25,45 +25,53 @@ const Header = () => {
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
                                 <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>From</p>
-                                <div className='flex items-center justify-bertween p-3 sm:p-4 border border-solid border-[#c2e2c2] rounded-[48px] sm:max-w-[221px]'>
-                                    <a href="#Location" className='flex items-center'>
-                                        <img className='w-[16px]' src={LocationIcon} alt="" />
-                                        <input type="text" placeholder='Bali, Indonesia' className='ff_kanit font-light text-[14px] leading-[100%] rounded-[48px] outline-none' />
-                                    </a>
-                                    <img className='w-[16px]' src={arrow} alt="arrow" />
+                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[221px]'>
+                                    <img className='w-4' src={LocationIcon} alt="LocationIcon" />
+                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full max-w-[165px] text-gray1 outline-none '>
+                                        <option>Bali, Indonesia</option>
+                                        <option>Karnataka, India</option>
+                                        <option>Agra, India</option>
+                                        <option>Rajasthan, India</option>
+                                    </select>
                                 </div>
                             </div>
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
                                 <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>To</p>
-                                <div className='flex items-center justify-bertween p-3 sm:p-4 border border-solid border-[#c2e2c2] rounded-[48px] sm:max-w-[221px]'>
-                                    <a href="#Location" className='flex items-center'>
-                                        <img className='w-[16px]' src={LocationIcon} alt="" />
-                                        <input type="text" placeholder='Bali, Indonesia' className='ff_kanit font-light text-[14px] leading-[100%] rounded-[48px] outline-none' />
-                                    </a>
-                                    <img className='w-[16px]' src={arrow} alt="arrow" />
+                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[221px]'>
+                                    <img className='w-4' src={LocationIcon} alt="LocationIcon" />
+                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full max-w-[165px] text-gray1 outline-none '>
+                                        <option>Bali, Indonesia</option>
+                                        <option>Karnataka, India</option>
+                                        <option>Agra, India</option>
+                                        <option>Rajasthan, India</option>
+                                    </select>
                                 </div>
                             </div>
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
                                 <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>Dates</p>
-                                <div className='flex items-center justify-bertween p-3 sm:p-4 border border-solid border-[#c2e2c2] rounded-[48px] sm:max-w-[221px]'>
-                                    <a href="#Location" className='flex items-center'>
-                                        <img className='w-[16px] pe-2' src={CelenderIcon} alt="CelenderIcon" />
-                                        <input type="text" placeholder='Select a date range' className='ff_kanit font-light text-[14px] leading-[100%] rounded-[48px] outline-none' />
-                                    </a>
-                                    <img className='w-[16px]' src={arrow} alt="arrow" />
+                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[221px]'>
+                                    <img className='w-4' src={CelenderIcon} alt="celenderIcon" />
+                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full max-w-[165px] text-gray1 outline-none '>
+                                        <option>Select a date range</option>
+                                        <option>1st to 10th</option>
+                                        <option>11th to 20th</option>
+                                        <option>21th to 30th/31st</option>
+                                    </select>
                                 </div>
                             </div>
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
                                 <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>Guest</p>
-                                <div className='flex items-center justify-bertween p-3 sm:p-4 border border-solid border-[#c2e2c2] rounded-[48px] sm:max-w-[221px]'>
-                                    <a href="#Location" className='flex items-center'>
-                                        <img className='w-[16px]' src={LocationIcon} alt="" />
-                                        <input type="text" placeholder='Number of your guest' className='ff_kanit font-light text-[14px] leading-[100%] rounded-[48px] outline-none' />
-                                    </a>
-                                    <img className='w-[16px]' src={arrow} alt="arrow" />
+                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[221px]'>
+                                    <img className='w-4' src={PeopleIcon} alt="PeopleIcon" />
+                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full max-w-[165px] text-gray1 outline-none '>
+                                        <option>Number of your guest</option>
+                                        <option>below to 5</option>
+                                        <option>5 to 20</option>
+                                        <option>above 20</option>
+                                    </select>
                                 </div>
                             </div>
 
