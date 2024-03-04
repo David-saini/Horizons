@@ -11,7 +11,7 @@ import Hawaii from "../assets/Image/webp/Hawaii.webp"
 
 const Vaccation = () => {
     return (
-        <div className='max-w-[1440px] mx-auto py-[120px]'>
+        <div className='max-w-[1440px] mx-auto py-12 sm:py-16 md:py-20 lg:py-24 xl:py-[120px]'>
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
 
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
