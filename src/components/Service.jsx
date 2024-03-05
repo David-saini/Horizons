@@ -37,7 +37,7 @@ const Service = () => {
     };
 
     return (
-        <div>
+        <div id="Services">
             <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Our <span className='text-lightgreen'>Services</span></h2>
             <div className='max-w-[1440px] mx-auto relative'>
                 <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-[-15%] md:top-[-30%] lg:top-[-40%] right-[5%] xl:right-[12%] absolute" src={RightVector} alt="RightVector" />

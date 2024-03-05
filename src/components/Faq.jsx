@@ -49,7 +49,7 @@ const items = [
 
 const Faq = () => {
     return (
-        <div className='max-w-[1440px] mx-auto lg:pb-6 relative'>
+        <div className='max-w-[1440px] mx-auto lg:pb-6 relative' id='FAQ'>
             <img className='w-[50px] sm:w-[70px] md:w-[100px] xl:w-[132px] absolute bottom-[-3.5%] md:bottom-[-10%] lg:bottom-[2%] lg:left-2 xl:left-[38px]' src={Camera} alt="Camera" />
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
                 <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-0 md:top-[-5%] lg:top-[5%] right-0 lg:right-[5%] absolute" src={RightVector} alt="RightVector" />
