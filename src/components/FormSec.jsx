@@ -21,7 +21,7 @@ const FormSec = () => {
     };
 
     return (
-        <div className='max-w-[1440px] mx-auto py-12 sm:py-16 lg:py-20'>
+        <div className='max-w-[1440px] mx-auto pt-8 pb-12 sm:py-16 lg:py-20'>
             <div className="max-w-[1140px] px-5 md:px-3 mx-auto">
                 <div className='flex lg:flex-row flex-col items-center justify-center gap-6 sm:gap-[55px] md:gap-[65px] lg:gap-[84px]'>
 

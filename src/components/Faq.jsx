@@ -47,7 +47,7 @@ const items = [
 
 const Faq = () => {
     return (
-        <div className='max-w-[1440px] mx-auto pb-6'>
+        <div className='max-w-[1440px] mx-auto lg:pb-6'>
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 sm:mb-8 lg:mb-10'>Frequently <span className='text-lightgreen'>Asked </span>Questions</h2>
 
