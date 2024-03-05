@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Testimonial from './components/Testimonial';
 import FormSec from './components/FormSec';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Service />
       <Gallery />
       <Testimonial />
+      <Faq />
       <FormSec />
       <Footer />
     </div>

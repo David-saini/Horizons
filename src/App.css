@@ -123,3 +123,25 @@
 ::placeholder {
     color: #4d4d4d !important;
 }
+
+:focus-visible {
+    outline: none !important;
+}
+
+
+.input_card.active {
+    background-color: #359F35;
+}
+
+.active .text-color {
+    color: white;
+}
+
+.active .text-color1 {
+    color: white;
+    font-weight: 500;
+}
+
+.active .svg-color path {
+    stroke: white;
+}
