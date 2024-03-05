@@ -120,12 +120,6 @@
     fill: #fff;
 }
 
-/* 
-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url('/src/assets/Image/png/arrowdown.png');
-    background-repeat: no-repeat;
-    background-position: right center;
-} */
+::placeholder {
+    color: #4d4d4d !important;
+}

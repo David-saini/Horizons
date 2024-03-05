@@ -12,7 +12,27 @@ const Service = () => {
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: "5px",
-        arrows: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1150,
+                settings: {
+                    slidesToShow: 2.3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                }
+            },]
     };
 
     return (

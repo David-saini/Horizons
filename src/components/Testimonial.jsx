@@ -12,7 +12,26 @@ const Testimonial = () => {
         speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: true,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1150,
+                settings: {
+                    slidesToShow: 2.3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                }
+            },]
     };
 
     return (

@@ -9,6 +9,7 @@ import Vaccation from './components/Vaccation';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Testimonial from './components/Testimonial';
+import FormSec from './components/FormSec';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Service />
       <Gallery />
       <Testimonial />
+      <FormSec />
       <Footer />
     </div>
   );
