@@ -12,6 +12,8 @@ const Testimonial = () => {
         speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: "5px",
         arrows: false,
         responsive: [
             {
@@ -31,7 +33,17 @@ const Testimonial = () => {
                     infinite: true,
                     dots: true,
                 }
-            },]
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                }
+            },
+        ]
     };
 
     return (
