@@ -101,13 +101,14 @@ html {
     opacity: 1 !important;
     color: #9acf9a !important;
     scale: 1;
+    z-index: 100;
 }
 
 .slick-dots li.slick-active button::before {
     scale: 1.7;
     opacity: 1 !important;
     color: #35A035 !important;
-
+    z-index: 100;
 }
 
 .slick-current .card {
