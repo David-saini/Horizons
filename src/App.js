@@ -15,7 +15,7 @@ import Explore from './components/Explore';
 
 function App() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Nav />
       <Header />
       <Vaccation />

@@ -1,5 +1,7 @@
 import React from 'react'
 import Helper from './Helper'
+import RightVector from "../assets/Image/webp/RightCurvedArrow.webp"
+import Camera from "../assets/Image/webp/CameraImg.webp"
 
 const items = [
     {
@@ -47,8 +49,10 @@ const items = [
 
 const Faq = () => {
     return (
-        <div className='max-w-[1440px] mx-auto lg:pb-6'>
-            <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
+        <div className='max-w-[1440px] mx-auto lg:pb-6 relative'>
+            <img className='w-[50px] sm:w-[70px] md:w-[100px] xl:w-[132px] absolute bottom-[-3.5%] md:bottom-[-10%] lg:bottom-[2%] lg:left-2 xl:left-[38px]' src={Camera} alt="Camera" />
+            <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
+                <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-0 md:top-[-5%] lg:top-[5%] right-0 lg:right-[5%] absolute" src={RightVector} alt="RightVector" />
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 sm:mb-8 lg:mb-10'>Frequently <span className='text-lightgreen'>Asked </span>Questions</h2>
 
                 <div className='flex items-center justify-center flex-wrap z-10 relative'>

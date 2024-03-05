@@ -8,16 +8,18 @@ import JaisalmerFort from "../assets/Image/webp/JaisalmerFort.webp"
 import CadmenBeach from "../assets/Image/webp/CamdenBeach.webp"
 import Thesiq from "../assets/Image/webp/TheSiq.webp"
 import Hawaii from "../assets/Image/webp/Hawaii.webp"
+import Camera from "../assets/Image/webp/CameraImg.webp"
+import PlaneVector from "../assets/Image/webp/PlaneVector.webp"
 
 const Vaccation = () => {
     return (
-        <div className='max-w-[1440px] mx-auto py-12 sm:py-16 md:py-20 lg:py-24 mt-20 md:mt-24 xl:py-[120px]'>
+        <div className='max-w-[1440px] mx-auto py-12 sm:py-16 md:py-20 lg:py-24 mt-20 md:mt-24 xl:py-[120px] relative'>
+            <img className='w-[60px] sm:w-[70px] md:w-[100px] xl:w-[132px] top-5 xl:top-3 left-2 absolute' src={Camera} alt="Camera" />
+            <img className='absolute top-[1%] md:top-0 right-0 xl:right-[4%] w-[130px] lg:w-[150px] xl:w-[177px]' src={PlaneVector} alt="PlaneVector" />
+
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
-
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
-
                 <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-6 md:mt-8 lg:mt-10'>
-
                     <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2'>
                         <img className='w-full max-w-[348px]' src={MysorePlace} alt="MysorePlace" />
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
