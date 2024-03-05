@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Testimonial from './components/Testimonial';
 import FormSec from './components/FormSec';
 import Faq from './components/Faq';
+import Explore from './components/Explore';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Vaccation />
       <Service />
       <Gallery />
+      <Explore />
       <Testimonial />
       <Faq />
       <FormSec />

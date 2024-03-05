@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Helper = ({ items }) => {
-    const [expandedIndex, setExpandedIndex] = useState(0); // Set the initial state to 0 to make the first accordion item active
+    const [expandedIndex, setExpandedIndex] = useState(0);
 
     const toggleAccordion = (index) => {
         setExpandedIndex(expandedIndex === index ? null : index);
@@ -40,6 +40,7 @@ const Helper = ({ items }) => {
                     </div>
                 </div>
             ))}
+
         </div>
     );
 };
