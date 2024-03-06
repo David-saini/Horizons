@@ -39,7 +39,7 @@ const Testimonial = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
-        centerPadding: "5px",
+        centerPadding: "0",
         arrows: true,
         prevArrow: <CustomPrevArrow />,
         nextArrow: <CustomNextArrow />,
@@ -55,12 +55,14 @@ const Testimonial = () => {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 640,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             },
         ]

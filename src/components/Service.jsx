@@ -49,18 +49,21 @@ const Service = () => {
                 breakpoint: 1150,
                 settings: {
                     slidesToShow: 2.3,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             },
         ]
