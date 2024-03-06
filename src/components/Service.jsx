@@ -8,7 +8,7 @@ const CustomPrevArrow = (props) => {
     return (
         <div
             className={className}
-            style={{ ...style, left: '-7%', zIndex: 1 }}
+            style={{ ...style, left: '-7%', top: '40%', zIndex: 1 }}
             onClick={onClick}
         >
             {/* Custom Arrow Content */}
@@ -22,7 +22,7 @@ const CustomNextArrow = (props) => {
     return (
         <div
             className={className}
-            style={{ ...style, right: '-5%', top: '50%', zIndex: 1 }}
+            style={{ ...style, right: '-5%', top: '40%', zIndex: 1 }}
             onClick={onClick}
         >
             <Nextbtn />
