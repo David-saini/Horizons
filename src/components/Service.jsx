@@ -6,27 +6,14 @@ import RightVector from "../assets/Image/webp/RightCurvedArrow.webp"
 const CustomPrevArrow = (props) => {
     const { className, style, onClick } = props;
     return (
-        <div
-            className={className}
-            style={{ ...style, left: '-7%', top: '40%', zIndex: 1 }}
-            onClick={onClick}
-        >
-            {/* Custom Arrow Content */}
-            <Prevbtn />
-        </div>
+        <div className={className} style={{ ...style, left: '-7%', top: '40%', zIndex: 1 }} onClick={onClick}><Prevbtn /></div>
     );
 };
 
 const CustomNextArrow = (props) => {
     const { className, style, onClick } = props;
     return (
-        <div
-            className={className}
-            style={{ ...style, right: '-5%', top: '40%', zIndex: 1 }}
-            onClick={onClick}
-        >
-            <Nextbtn />
-        </div>
+        <div className={className} style={{ ...style, right: '-5%', top: '40%', zIndex: 1 }} onClick={onClick}><Nextbtn /></div>
     );
 };
 
@@ -110,8 +97,6 @@ const Service = () => {
                             </div>
                         </div>
                     </Slider>
-
-
 
                 </div>
             </div>

@@ -77,7 +77,7 @@ const FormSec = () => {
                                 <input className='bg-white input_card p-4 rounded-[16px] ff_kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="phone" value={Mobile} onChange={(e) => setMobile(e.target.value)} />
                             </div>
                             <div className='flex items-center justify-center gap-[21px] mt-4'>
-                                <textarea placeholder='Write your message...' className='font-light text-base ff_kanit w-full min-h-[140px] leading-[150%]  p-4 input_card resize-none outline-none' type='text' value={Msg} onChange={(e) => setMsg(e.target.value)}></textarea>
+                                <textarea placeholder='Write your message...' className='font-light text-base ff_kanit w-full min-h-[140px] leading-[150%] rounded-[16px] p-4 input_card resize-none outline-none' type='text' value={Msg} onChange={(e) => setMsg(e.target.value)}></textarea>
                             </div>
                             <div className='flex items-center justify-center'>
                                 <button type="submit" className='w-full max-w-[461px] h-[52px] rounded-[16px] bg-lightgreen text-white1 ff_kanit font-medium text-base leading-[150%] mt-6 sm:mt-8 hover:bg-black duration-300'>Submit</button>
