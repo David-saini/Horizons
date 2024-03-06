@@ -49,9 +49,9 @@ const Nav = () => {
                             <div className='flex items-center justify-center flex-col'>
                                 <ul className='flex items-center justify-center ps-0 mb-0'>
                                     <li className='relative'><a href='#home' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-lg md:text-xl lg:text-base active' onClick={closeMenu}>Home</a></li>
-                                    <li className='relative'><a href='#Destinations' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-lg md:text-xl lg:text-base hover:text-lightgreen' onClick={closeMenu}>Destinations</a></li>
-                                    <li className='relative'><a href='#Services' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-lg md:text-xl lg:text-base hover:text-lightgreen' onClick={closeMenu}>Our Services</a></li>
-                                    <li className='relative'><a href='#FAQ' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-lg md:text-xl lg:text-base hover:text-lightgreen' onClick={closeMenu}>FAQ’s</a></li>
+                                    <li className='relative'><a href='#Destinations' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-lg md:text-xl lg:text-base hover:text-lightgreen nav_link' onClick={closeMenu}>Destinations</a></li>
+                                    <li className='relative'><a href='#Services' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-lg md:text-xl lg:text-base hover:text-lightgreen nav_link' onClick={closeMenu}>Our Services</a></li>
+                                    <li className='relative'><a href='#FAQ' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-lg md:text-xl lg:text-base hover:text-lightgreen nav_link' onClick={closeMenu}>FAQ’s</a></li>
                                 </ul>
                                 <div className='block lg:hidden mt-4'>
                                     <button className='ff_kanit font-medium text-lg md:text-xl lg:text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] hover:bg-black bg-[#35A035] duration-300'>Sign Up</button>
@@ -64,9 +64,9 @@ const Nav = () => {
                     <div className='lg:block hidden'>
                         <ul className='flex align-items-center gap-6'>
                             <li><a href='#home' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base active'>Home</a></li>
-                            <li><a href='#Destinations' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen'>Destinations</a></li>
-                            <li><a href='#Services' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen'>Our Services</a></li>
-                            <li><a href='#FAQ' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen'>FAQ’s</a></li>
+                            <li><a href='#Destinations' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen nav_link'>Destinations</a></li>
+                            <li><a href='#Services' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen nav_link'>Our Services</a></li>
+                            <li><a href='#FAQ' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen nav_link'>FAQ’s</a></li>
                         </ul>
                     </div>
 

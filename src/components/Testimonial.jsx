@@ -76,13 +76,10 @@ const Testimonial = () => {
                 <div className='max-w-[1164px] mx-auto md:px-3 px-5'>
 
                     <Slider {...settings}>
-
                         <div className='py-5 sm:pt-10 sm:pb-8'>
                             <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                 <div className='flex flex-col'>
-
                                     <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
-
                                     <div className="mt-6 flex items-center gap-4">
                                         <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
                                         <div className="flex flex-col gap-2">
@@ -96,7 +93,6 @@ const Testimonial = () => {
                                             </span>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -104,9 +100,7 @@ const Testimonial = () => {
                         <div className='py-5 sm:pt-10 sm:pb-8'>
                             <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                 <div className='flex flex-col'>
-
                                     <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
-
                                     <div className="mt-6 flex items-center gap-4">
                                         <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
                                         <div className="flex flex-col gap-2">
@@ -120,7 +114,6 @@ const Testimonial = () => {
                                             </span>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -128,9 +121,7 @@ const Testimonial = () => {
                         <div className='py-5 sm:pt-10 sm:pb-8'>
                             <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                 <div className='flex flex-col'>
-
                                     <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
-
                                     <div className="mt-6 flex items-center gap-4">
                                         <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
                                         <div className="flex flex-col gap-2">
@@ -144,12 +135,9 @@ const Testimonial = () => {
                                             </span>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
-
-
                     </Slider>
 
                 </div>
