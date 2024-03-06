@@ -116,21 +116,21 @@ html {
     z-index: 100;
 }
 
-.slick-current .card {
+.slick-slide.slick-current .card {
     background-color: #359F35;
     color: white;
     border: #359F35;
 }
 
-.slick-current .card .tikkmark rect {
+.slick-slide.slick-current .card .tikkmark rect {
     fill: white;
 }
 
-.slick-current .card .tikkmark path {
+.slick-slide.slick-current .card .tikkmark path {
     stroke: #359F35;
 }
 
-.slick-current .card .link path {
+.slick-slide.slick-current .card .link path {
     fill: #fff;
 }
 

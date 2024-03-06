@@ -9,15 +9,17 @@ const FormSec = () => {
     const [Lastname, setLastname] = useState("");
     const [Email, setEmail] = useState("");
     const [Mobile, setMobile] = useState("");
+    const [Msg, setMsg] = useState("");
 
 
     const handleFormSubmission = (event) => {
         event.preventDefault();
-        console.log(Name, Lastname, Email, Mobile);
+        console.log(Name, Lastname, Email, Mobile, Msg);
         setName("");
         setLastname("");
         setEmail("");
         setMobile("");
+        setMsg("");
     };
 
     return (
@@ -72,10 +74,10 @@ const FormSec = () => {
                             </div>
                             <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[21px] mt-4'>
                                 <input className='bg-white input_card p-4 rounded-[16px] ff_kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Email' type="Email" value={Email} onChange={(e) => setEmail(e.target.value)} />
-                                <input className='bg-white input_card p-4 rounded-[16px] ff_kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="Mobile no." value={Mobile} onChange={(e) => setMobile(e.target.value)} />
+                                <input className='bg-white input_card p-4 rounded-[16px] ff_kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="phone" value={Mobile} onChange={(e) => setMobile(e.target.value)} />
                             </div>
                             <div className='flex items-center justify-center gap-[21px] mt-4'>
-                                <textarea placeholder='Write your message...' className='font-light text-base ff_kanit w-full min-h-[140px] leading-[150%]  p-4 input_card resize-none outline-none' type='text'></textarea>
+                                <textarea placeholder='Write your message...' className='font-light text-base ff_kanit w-full min-h-[140px] leading-[150%]  p-4 input_card resize-none outline-none' type='text' value={Msg} onChange={(e) => setMsg(e.target.value)}></textarea>
                             </div>
                             <div className='flex items-center justify-center'>
                                 <button type="submit" className='w-full max-w-[461px] h-[52px] rounded-[16px] bg-lightgreen text-white1 ff_kanit font-medium text-base leading-[150%] mt-6 sm:mt-8 hover:bg-black duration-300'>Submit</button>

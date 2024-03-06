@@ -43,6 +43,7 @@ const Testimonial = () => {
         arrows: true,
         prevArrow: <CustomPrevArrow />,
         nextArrow: <CustomNextArrow />,
+
         responsive: [
             {
                 breakpoint: 1150,
@@ -69,7 +70,7 @@ const Testimonial = () => {
     };
 
     return (
-        <div className="py-12 sm:py-[60px] md:py-20 lg:py-[120px]">
+        <div className="py-12 sm:py-[60px] md:py-20 lg:py-24 xl:py-[120px]">
             <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Testimonials</h2>
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] mx-auto md:px-3 px-5'>
