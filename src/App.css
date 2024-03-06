@@ -163,6 +163,12 @@ html {
 }
 
 /*============================ media-quaries ============================*/
+@media (min-width:1441px) {
+    .mt_0 {
+        margin-top: 0px !important;
+    }
+}
+
 @media (min-width:1921px) {
     .min_h_screen {
         min-height: 100vh;
