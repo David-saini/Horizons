@@ -19,7 +19,7 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <div className='bg-white border-white border-solid rounded-[32px] p-6 xl:p-8 input_card mt-[-80px] sm:mt-0 translate-y-[20%] sm:translate-y-[40%] lg:translate-y-[50%] xl:translate-y-[70%] xl:mt-[-155px] mt_0'>
+                    <div className='bg-white border-white border-solid rounded-[32px] p-6 xl:p-8 input_card mt-[-80px] sm:mt-[-120px] translate-y-[20%] sm:translate-y-[40%] lg:translate-y-[50%] xl:translate-y-[70%] lg:mt-[-155px] mt_0'>
 
                         <div className='gap-4 lg:gap-5 xl:gap-8 flex items-center justify-center xl:justify-between flex-wrap'>
 
