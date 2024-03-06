@@ -35,7 +35,7 @@ const Explore = () => {
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 sm:mb-8 lg:mb-10'>Explore <span className='text-lightgreen'>Beautiful </span>World</h2>
 
                 <div className='border-white rounded-[21px] border-[16px] video_card max-w-[896px] mx-auto relative'>
-                    <video ref={videoRef} onClick={handleVideoClick} autoPlay={isPlaying} src={Video1} loop poster={poster}></video>
+                    <video ref={videoRef} onClick={handleVideoClick} autoPlay={isPlaying} src={Video1} loop poster={poster} className='cursor-pointer'></video>
 
                     {!isPlaying && (
                         <button className='absolute top-[50%] left-[50%] translate-[-50%,-50%]' onClick={togglePlay}>
