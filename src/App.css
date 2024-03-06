@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/*============================ font-family============================== */
 .ff_kanit {
     font-family: "kanit";
 }
@@ -25,7 +26,7 @@ html {
     font-weight: 500;
 }
 
-/* navbar */
+/*============================== navbar ======================================*/
 .nav-fix {
     position: fixed;
     width: 100%;
@@ -66,6 +67,7 @@ html {
     gap: 24px;
 }
 
+/*=================================== shadows ================================*/
 .video_card {
     box-shadow: 8px 8px 48px 0px #00000029;
 }
@@ -78,6 +80,7 @@ html {
     box-shadow: 4.139534950256348px 4.139534950256348px 16.55813980102539px 0px #00000029;
 }
 
+/*=============================== icon-fill ================================*/
 .footer_icons svg rect {
     fill: #359F35;
 }
@@ -95,12 +98,7 @@ html {
     fill: #fff;
 }
 
-@media (min-width:1921px) {
-    .min_h_screen {
-        min-height: 100vh;
-    }
-}
-
+/*=============================== slider-class ==============================*/
 .slick-dots li button:before {
     font-size: 12px !important;
     opacity: 1 !important;
@@ -142,7 +140,7 @@ html {
     outline: none !important;
 }
 
-
+/*============================== faq-class ===============================*/
 .input_card.active {
     background-color: #359F35;
 }
@@ -162,4 +160,11 @@ html {
 
 .arrows rect:hover {
     fill: #359F35;
+}
+
+/*============================ media-quaries ============================*/
+@media (min-width:1921px) {
+    .min_h_screen {
+        min-height: 100vh;
+    }
 }
