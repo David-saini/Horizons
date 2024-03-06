@@ -3,6 +3,33 @@ import { LearnMoreBtn, Nextbtn, Prevbtn, TikMark } from './Icon';
 import { Link } from 'react-router-dom';
 import RightVector from "../assets/Image/webp/RightCurvedArrow.webp"
 
+const CustomPrevArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, left: '-7%', zIndex: 1 }}
+            onClick={onClick}
+        >
+            {/* Custom Arrow Content */}
+            <Prevbtn />
+        </div>
+    );
+};
+
+const CustomNextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, right: '-5%', top: '50%', zIndex: 1 }}
+            onClick={onClick}
+        >
+            <Nextbtn />
+        </div>
+    );
+};
+
 const Service = () => {
     var settings = {
         dots: true,
@@ -14,6 +41,8 @@ const Service = () => {
         centerMode: true,
         centerPadding: "5px",
         arrows: true,
+        prevArrow: <CustomPrevArrow />,
+        nextArrow: <CustomNextArrow />,
 
         responsive: [
             {
@@ -43,15 +72,6 @@ const Service = () => {
             <div className='max-w-[1440px] mx-auto relative'>
                 <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-[-15%] md:top-[-30%] lg:top-[-40%] right-[5%] xl:right-[12%] absolute" src={RightVector} alt="RightVector" />
                 <div className='max-w-[1164px] mx-auto md:px-3 px-5'>
-
-
-                    {/* <span className="cursor-pointer md:block hidden absolute start-[-56px] top-[50%] translate-y-[-50%]" onClick={() => first.current.slickPrev()}>
-                        <Prevbtn />
-                    </span>
-                    <span className="cursor-pointer md:block hidden absolute end-[-56px] top-[50%] translate-y-[-50%]" onClick={() => first.current.slickNext()}>
-                        <Nextbtn />
-                    </span> */}
-
 
                     <Slider {...settings}>
                         <div className='pt-10 pb-8'>

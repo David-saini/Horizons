@@ -2,7 +2,34 @@ import Slider from "react-slick";
 import BenjaminRobert from "../assets/Image/webp/BenjaminRobert.webp"
 import filledStar from "../assets/Image/webp/filledstar.webp"
 import UnfilledStar from "../assets/Image/webp/unfilledstar.webp"
+import { Nextbtn, Prevbtn } from "./Icon";
 
+const CustomPrevArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, left: '-7%', zIndex: 1 }}
+            onClick={onClick}
+        >
+            {/* Custom Arrow Content */}
+            <Prevbtn />
+        </div>
+    );
+};
+
+const CustomNextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, right: '-5%', top: '50%', zIndex: 1 }}
+            onClick={onClick}
+        >
+            <Nextbtn />
+        </div>
+    );
+};
 
 const Testimonial = () => {
     var settings = {
@@ -14,33 +41,27 @@ const Testimonial = () => {
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: "5px",
-        arrows: false,
+        arrows: true,
+        prevArrow: <CustomPrevArrow />,
+        nextArrow: <CustomNextArrow />,
         responsive: [
             {
                 breakpoint: 1150,
                 settings: {
                     slidesToShow: 2.3,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true,
                 }
             },
             {
                 breakpoint: 640,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true,
                 }
             },
         ]
@@ -54,7 +75,7 @@ const Testimonial = () => {
 
                     <Slider {...settings}>
 
-                        <div className='pt-10 pb-8'>
+                        <div className='py-5 sm:pt-10 sm:pb-8'>
                             <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                 <div className='flex flex-col'>
 
@@ -78,7 +99,7 @@ const Testimonial = () => {
                             </div>
                         </div>
 
-                        <div className='py-10'>
+                        <div className='py-5 sm:pt-10 sm:pb-8'>
                             <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                 <div className='flex flex-col'>
 
@@ -102,7 +123,7 @@ const Testimonial = () => {
                             </div>
                         </div>
 
-                        <div className='py-10'>
+                        <div className='py-5 sm:pt-10 sm:pb-8'>
                             <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                 <div className='flex flex-col'>
 

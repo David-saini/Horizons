@@ -20,6 +20,11 @@ html {
     backdrop-filter: blur(10px);
 }
 
+.active {
+    color: #359F35;
+    font-weight: 500;
+}
+
 /* navbar */
 .nav-fix {
     position: fixed;
@@ -153,4 +158,8 @@ html {
 
 .active .svg-color path {
     stroke: white;
+}
+
+.arrows rect:hover {
+    fill: #359F35;
 }
