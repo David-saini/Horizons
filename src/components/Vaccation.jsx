@@ -21,8 +21,11 @@ const Vaccation = () => {
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
                 <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-6 md:mt-8 lg:mt-10'>
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                        <img className='w-full max-w-[348px]' src={MysorePlace} alt="MysorePlace" />
+
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                            <img className='w-full max-w-[348px] duration-300 img' src={MysorePlace} alt="MysorePlace" />
+                        </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
                                 <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Mysore Palace</h5>
@@ -44,8 +47,10 @@ const Vaccation = () => {
                         </div>
                     </div>
 
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                        <img className='w-full max-w-[348px]' src={TajMahal} alt="MysorePlace" />
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                            <img className='w-full max-w-[348px] duration-300 img' src={TajMahal} alt="MysorePlace" />
+                        </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
                                 <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Taj Mahal</h5>
@@ -67,8 +72,10 @@ const Vaccation = () => {
                         </div>
                     </div>
 
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                        <img className='w-full max-w-[348px]' src={JaisalmerFort} alt="JaisalmerFort" />
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                            <img className='w-full max-w-[348px] img duration-300' src={JaisalmerFort} alt="JaisalmerFort" />
+                        </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
                                 <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Jaisalmer Fort</h5>
@@ -90,8 +97,10 @@ const Vaccation = () => {
                         </div>
                     </div>
 
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                        <img className='w-full max-w-[348px]' src={CadmenBeach} alt="CadmenBeach" />
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                            <img className='w-full max-w-[348px] img duration-300' src={CadmenBeach} alt="CadmenBeach" />
+                        </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
                                 <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Camden Beach</h5>
@@ -113,8 +122,10 @@ const Vaccation = () => {
                         </div>
                     </div>
 
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                        <img className='w-full max-w-[348px]' src={Thesiq} alt="Thesiq" />
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                            <img className='w-full max-w-[348px] duration-300 img' src={Thesiq} alt="Thesiq" />
+                        </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
                                 <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>The Siq</h5>
@@ -136,8 +147,10 @@ const Vaccation = () => {
                         </div>
                     </div>
 
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                        <img className='w-full max-w-[348px]' src={Hawaii} alt="Hawaii" />
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                            <img className='w-full max-w-[348px] duration-300 img' src={Hawaii} alt="Hawaii" />
+                        </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
                                 <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Maui, Hawaii</h5>
@@ -165,8 +178,10 @@ const Vaccation = () => {
                     content={
                         <>
                             <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-4 xl:mt-6'>
-                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                    <img className='w-full max-w-[348px]' src={MysorePlace} alt="MysorePlace" />
+                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                                        <img className='w-full max-w-[348px] duration-300 img' src={MysorePlace} alt="MysorePlace" />
+                                    </div>
                                     <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                         <div className='flex flex-col gap-2'>
                                             <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Mysore Palace</h5>
@@ -188,8 +203,10 @@ const Vaccation = () => {
                                     </div>
                                 </div>
 
-                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                    <img className='w-full max-w-[348px]' src={TajMahal} alt="MysorePlace" />
+                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                                        <img className='w-full max-w-[348px] duration-300 img' src={TajMahal} alt="MysorePlace" />
+                                    </div>
                                     <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                         <div className='flex flex-col gap-2'>
                                             <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Taj Mahal</h5>
@@ -211,8 +228,10 @@ const Vaccation = () => {
                                     </div>
                                 </div>
 
-                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer hover:scale-[1.03] xl:hover:scale-[1.05] duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                    <img className='w-full max-w-[348px]' src={Hawaii} alt="Hawaii" />
+                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
+                                        <img className='w-full max-w-[348px] duration-300 img' src={Hawaii} alt="Hawaii" />
+                                    </div>
                                     <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                         <div className='flex flex-col gap-2'>
                                             <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Maui, Hawaii</h5>
