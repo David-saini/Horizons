@@ -99,19 +99,33 @@ html {
 }
 
 /*=============================== slider-class ==============================*/
-.slick-dots li button:before {
-    font-size: 12px !important;
-    opacity: 1 !important;
-    color: #9acf9a !important;
-    scale: 1;
-    z-index: 100;
+.swiper-pagination {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.slick-dots li.slick-active button::before {
-    scale: 1.7;
-    opacity: 1 !important;
-    color: #35A035 !important;
-    z-index: 100;
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -10px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #9acf9a;
+    opacity: 1;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #35a035;
+    transform: scale(1.7);
 }
 
 .swiper-slide-active .card {
