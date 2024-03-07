@@ -56,7 +56,7 @@ const Faq = () => {
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 sm:mb-8 lg:mb-10'>Frequently <span className='text-lightgreen'>Asked </span>Questions</h2>
 
                 <div className='flex items-center justify-center flex-wrap z-10 relative'>
-                    <div>
+                    <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
                         <Helper items={items} />
                     </div>
                 </div>

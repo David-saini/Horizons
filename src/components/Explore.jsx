@@ -36,7 +36,7 @@ const Explore = () => {
                 <img className='absolute bottom-[-25%] lg:bottom-[-11%] left-2 max-w-[110px] max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] md:block hidden' src={LeftVector} alt="LeftVector" />
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 sm:mb-8 lg:mb-10'>Explore <span className='text-lightgreen'>Beautiful </span>World</h2>
 
-                <div className='border-white rounded-[21px] border-[16px] video_card max-w-[896px] mx-auto relative'>
+                <div className='border-white rounded-[21px] border-[16px] video_card max-w-[896px] mx-auto relative' data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300" data-aos-easing="linear" >
                     <div className='rounded-[8px] border-white border border-solid overflow-hidden'>
                         <video ref={videoRef} onClick={handleVideoClick} autoPlay={isPlaying} src={Video1} loop poster={poster} className='cursor-pointer'></video>
                     </div>

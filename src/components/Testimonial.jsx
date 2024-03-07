@@ -104,7 +104,7 @@ const Explore = () => {
                         </SwiperSlide>
 
 
-                        <SwiperSlide className="swiper-slide">
+                        <SwiperSlide className="swiper-slide" >
                             <div className='py-5 sm:pt-10 sm:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
@@ -128,7 +128,7 @@ const Explore = () => {
                         </SwiperSlide>
 
 
-                        <SwiperSlide className="swiper-slide">
+                        <SwiperSlide className="swiper-slide" >
                             <div className='py-5 sm:pt-10 sm:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
@@ -152,7 +152,7 @@ const Explore = () => {
                         </SwiperSlide>
 
 
-                        <SwiperSlide className="swiper-slide">
+                        <SwiperSlide className="swiper-slide" >
                             <div className='py-5 sm:pt-10 sm:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
