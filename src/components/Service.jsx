@@ -19,7 +19,7 @@ const CustomNextArrow = (props) => {
 
 const Service = () => {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         autoplay: true,
         speed: 1000,
@@ -37,6 +37,7 @@ const Service = () => {
                 settings: {
                     slidesToShow: 2.3,
                     arrows: false,
+                    dots: true,
                 }
             },
             {
@@ -44,6 +45,7 @@ const Service = () => {
                 settings: {
                     slidesToShow: 2,
                     arrows: false,
+                    dots: true,
                 }
             },
             {
@@ -51,6 +53,7 @@ const Service = () => {
                 settings: {
                     slidesToShow: 1,
                     arrows: false,
+                    dots: true,
                 }
             },
         ]
@@ -65,7 +68,7 @@ const Service = () => {
 
                     <Slider {...settings}>
                         <div className='py-5 sm:pt-10 sm:pb-8'>
-                            <div className='max-w-[300px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
+                            <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                 <div className='flex flex-col items-center justify-center'>
                                     <TikMark />
                                     <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] ff_kanit mt-4 card'>Customized Itineraries</h5>
@@ -76,7 +79,7 @@ const Service = () => {
                         </div>
 
                         <div className='py-5 sm:pt-10 sm:pb-8'>
-                            <div className='max-w-[300px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
+                            <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                 <div className='flex flex-col items-center justify-center'>
                                     <TikMark />
                                     <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] ff_kanit mt-4 card'>Destination Expertise</h5>
@@ -87,7 +90,7 @@ const Service = () => {
                         </div>
 
                         <div className='py-5 sm:pt-10 sm:pb-8'>
-                            <div className='max-w-[300px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
+                            <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                 <div className='flex flex-col items-center justify-center'>
                                     <TikMark />
                                     <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] ff_kanit mt-4 card'>Travel Insurance</h5>

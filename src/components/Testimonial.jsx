@@ -32,7 +32,7 @@ const CustomNextArrow = (props) => {
 
 const Testimonial = () => {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         autoplay: true,
         speed: 1000,
@@ -50,6 +50,7 @@ const Testimonial = () => {
                 settings: {
                     slidesToShow: 2.3,
                     arrows: false,
+                    dots: true,
                 }
             },
             {
@@ -57,6 +58,7 @@ const Testimonial = () => {
                 settings: {
                     slidesToShow: 2,
                     arrows: false,
+                    dots: true,
                 }
             },
             {
@@ -64,6 +66,7 @@ const Testimonial = () => {
                 settings: {
                     slidesToShow: 1,
                     arrows: false,
+                    dots: true,
                 }
             },
         ]
