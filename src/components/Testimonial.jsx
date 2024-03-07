@@ -49,7 +49,7 @@ const Explore = () => {
 
                     <Swiper
                         slidesPerView={1}
-                        spaceBetween={30}
+                        spaceBetween={2}
                         centeredSlides={true}
                         loop={true}
                         autoplay={{
@@ -67,18 +67,22 @@ const Explore = () => {
                         breakpoints={{
                             768: {
                                 slidesPerView: 2,
-                                spaceBetween: 20
+                                spaceBetween: 20,
                             },
                             1024: {
                                 slidesPerView: 3,
-                                spaceBetween: 30
+                                spaceBetween: 30,
+                            },
+                            1280: {
+                                slidesPerView: 3,
+                                spaceBetween: 2,
                             }
                         }}
                         pagination={{ clickable: true }}
                     >
 
                         <SwiperSlide className="swiper-slide">
-                            <div className='py-5 sm:pt-10 sm:pb-8'>
+                            <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
                                         <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
@@ -102,7 +106,7 @@ const Explore = () => {
 
 
                         <SwiperSlide className="swiper-slide" >
-                            <div className='py-5 sm:pt-10 sm:pb-8'>
+                            <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
                                         <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
@@ -126,7 +130,7 @@ const Explore = () => {
 
 
                         <SwiperSlide className="swiper-slide" >
-                            <div className='py-5 sm:pt-10 sm:pb-8'>
+                            <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
                                         <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
@@ -150,7 +154,7 @@ const Explore = () => {
 
 
                         <SwiperSlide className="swiper-slide" >
-                            <div className='py-5 sm:pt-10 sm:pb-8'>
+                            <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
                                         <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>

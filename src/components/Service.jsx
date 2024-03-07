@@ -49,7 +49,7 @@ const Service = () => {
 
                     <Swiper
                         slidesPerView={1}
-                        spaceBetween={30}
+                        spaceBetween={2}
                         centeredSlides={true}
                         loop={true}
                         autoplay={{
@@ -72,6 +72,10 @@ const Service = () => {
                             1024: {
                                 slidesPerView: 3,
                                 spaceBetween: 30
+                            },
+                            1280: {
+                                slidesPerView: 3,
+                                spaceBetween: 2
                             }
                         }}
 
@@ -80,7 +84,7 @@ const Service = () => {
                     >
 
                         <SwiperSlide className="swiper-slide">
-                            <div className='py-5 sm:pt-10 sm:pb-8'>
+                            <div className='pt-5 pb-12 sm:pt-10 sm:pb-8'>
                                 <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <TikMark />
@@ -94,7 +98,7 @@ const Service = () => {
 
 
                         <SwiperSlide className="swiper-slide">
-                            <div className='py-5 sm:pt-10 sm:pb-8'>
+                            <div className='pt-5 pb-12 sm:pt-10 sm:pb-8'>
                                 <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <TikMark />
@@ -108,7 +112,7 @@ const Service = () => {
 
 
                         <SwiperSlide className="swiper-slide">
-                            <div className='py-5 sm:pt-10 sm:pb-8'>
+                            <div className='pt-5 pb-12 sm:pt-10 sm:pb-8'>
                                 <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <TikMark />
@@ -122,7 +126,7 @@ const Service = () => {
 
 
                         <SwiperSlide className="swiper-slide">
-                            <div className='py-5 sm:pt-10 sm:pb-8'>
+                            <div className='pt-5 pb-12 sm:pt-10 sm:pb-8'>
                                 <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <TikMark />
