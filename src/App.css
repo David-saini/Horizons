@@ -178,3 +178,14 @@ html {
         min-height: 100vh;
     }
 }
+
+/*=================== select =============================*/
+.custom_select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('./assets/Image/png/Selectarrow.png');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
