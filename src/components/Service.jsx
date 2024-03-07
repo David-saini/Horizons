@@ -42,10 +42,10 @@ const Service = () => {
 
             <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Our <span className='text-lightgreen'>Services</span></h2>
             <div className='max-w-[1440px] mx-auto relative'>
-                <button className="absolute top-[50%] left-0" onClick={goPrev}>
+                <button className="absolute top-[100%] xl:top-[50%] left-[5%] z-[10]" onClick={goPrev}>
                     <Prevbtn />
                 </button>
-                <button className="absolute top-[50%] right-0" onClick={goNext}>
+                <button className="absolute top-[100%] xl:top-[50%] right-[5%] z-[10]" onClick={goNext}>
                     <Nextbtn />
                 </button>
                 <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-[-15%] md:top-[-30%] lg:top-[-40%] right-[5%] xl:right-[12%] absolute" src={RightVector} alt="RightVector" />

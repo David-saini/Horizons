@@ -42,10 +42,10 @@ const Explore = () => {
 
             <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Testimonials</h2>
             <div className='max-w-[1440px] mx-auto relative'>
-                <button className="absolute top-[50%] left-0" onClick={goPrev}>
+                <button className="absolute top-[100%] xl:top-[50%] left-[5%] z-[10]" onClick={goPrev}>
                     <Prevbtn />
                 </button>
-                <button className="absolute top-[50%] right-0" onClick={goNext}>
+                <button className="absolute top-[100%] xl:top-[50%] right-[5%] z-[10]" onClick={goNext}>
                     <Nextbtn />
                 </button>
 
