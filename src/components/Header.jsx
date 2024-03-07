@@ -11,6 +11,7 @@ const Header = () => {
             <img className='absolute left-[45%] md:left-[42%] top-[12%] md:top-[8%] max-w-[200px] md:max-w-[270px] lg:max-w-[319px] ' src={HeaderVector} alt="HeaderVector" />
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
+                    {/*========================================= header_card ===============================================================*/}
                     <div className='lg:pt-[204px] lg:pb-[124px] md:py-[100px] sm:py-20 py-12' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border border-solid border-white bg-yellow max-w-[400px] sm:max-w-[450px] md:max-w-[470px] lg:max-w-[537px] p-5 sm:p-8 md:p-10 backdrop rounded-[25px] md:rounded-[36px]'>
                             <h1 className='font-bold ff_kanit text-[40px] sm:text-[46px] md:text-[50px] lg:text-[55px] xl:text-xxxl leading-[120%] text-white'>Lets Discover a New Adventure</h1>
@@ -18,7 +19,7 @@ const Header = () => {
                             <button className='ff_kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] bg-[#35A035] mt-4 sm:mt-6 md:mt-8 duration-300 hover:bg-black'>Explore Now</button>
                         </div>
                     </div>
-
+                    {/*==================================== selecter_card start========================================*/}
                     <div className='bg-white border-white border-solid rounded-[16px] sm:rounded-[32px] p-4 sm:p-6 xl:p-8 input_card mt-[-80px] sm:mt-[-120px] translate-y-[20%] sm:translate-y-[40%] lg:translate-y-[50%] xl:translate-y-[70%] lg:mt-[-145px] mt_0'>
 
                         <div className='gap-2 sm:gap-6 lg:gap-5 xl:gap-8 flex items-center flex-col sm:flex-row justify-center xl:justify-between flex-wrap'>
@@ -78,7 +79,7 @@ const Header = () => {
                             <a href="#search"><img className='h-10 w-10 md:w-[52px] md:h-[52px] mt-5 sm:mt-0' src={search} alt="search" /></a>
 
                         </div>
-
+                        {/*==================================== selecter_card end========================================*/}
                     </div>
 
                 </div>
