@@ -106,13 +106,6 @@ html {
     transform: translateX(-50%);
 }
 
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: -10px;
-}
-
 .swiper-pagination .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
@@ -190,6 +183,12 @@ html {
 @media (min-width:1921px) {
     .min_h_screen {
         min-height: 100vh;
+    }
+}
+
+@media (min-width: 1281px) {
+    .swiper-pagination {
+        display: none !important;
     }
 }
 
