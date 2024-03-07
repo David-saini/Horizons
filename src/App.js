@@ -12,6 +12,7 @@ import Testimonial from './components/Testimonial';
 import FormSec from './components/FormSec';
 import Faq from './components/Faq';
 import Explore from './components/Explore';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Faq />
       <FormSec />
       <Footer />
+      <BackToTop />
     </div>
   );
 }

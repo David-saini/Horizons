@@ -19,15 +19,15 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <div className='bg-white border-white border-solid rounded-[32px] p-6 xl:p-8 input_card mt-[-80px] sm:mt-[-120px] translate-y-[20%] sm:translate-y-[40%] lg:translate-y-[50%] xl:translate-y-[70%] lg:mt-[-155px] mt_0'>
+                    <div className='bg-white border-white border-solid rounded-[16px] sm:rounded-[32px] p-4 sm:p-6 xl:p-8 input_card mt-[-80px] sm:mt-[-120px] translate-y-[20%] sm:translate-y-[40%] lg:translate-y-[50%] xl:translate-y-[70%] lg:mt-[-155px] mt_0'>
 
-                        <div className='gap-4 lg:gap-5 xl:gap-8 flex items-center justify-center xl:justify-between flex-wrap'>
+                        <div className='gap-2 sm:gap-4 lg:gap-5 xl:gap-8 flex items-center flex-col sm:flex-row justify-center xl:justify-between flex-wrap'>
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
                                 <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>From</p>
-                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[221px]'>
+                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[300px] sm:w-[200px] xl:w-[221px]'>
                                     <img className='w-4' src={LocationIcon} alt="LocationIcon" />
-                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full max-w-[165px] text-gray1 outline-none '>
+                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full sm:max-w-[165px] text-gray1 outline-none'>
                                         <option>Bali, Indonesia</option>
                                         <option>Karnataka, India</option>
                                         <option>Agra, India</option>
@@ -38,9 +38,9 @@ const Header = () => {
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
                                 <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>To</p>
-                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[221px]'>
+                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[300px] sm:w-[200px] xl:w-[221px]'>
                                     <img className='w-4' src={LocationIcon} alt="LocationIcon" />
-                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full max-w-[165px] text-gray1 outline-none '>
+                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full sm:max-w-[165px] text-gray1 outline-none '>
                                         <option>Bali, Indonesia</option>
                                         <option>Karnataka, India</option>
                                         <option>Agra, India</option>
@@ -51,9 +51,9 @@ const Header = () => {
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
                                 <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>Dates</p>
-                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[221px]'>
+                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[300px] sm:w-[200px] xl:w-[221px]'>
                                     <img className='w-4' src={CelenderIcon} alt="celenderIcon" />
-                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full max-w-[165px] text-gray1 outline-none '>
+                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full sm:max-w-[165px] text-gray1 outline-none '>
                                         <option>Select a date range</option>
                                         <option>1st to 10th</option>
                                         <option>11th to 20th</option>
@@ -64,9 +64,9 @@ const Header = () => {
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
                                 <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>Guest</p>
-                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[221px]'>
+                                <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[300px] sm:w-[200px] xl:w-[221px]'>
                                     <img className='w-4' src={PeopleIcon} alt="PeopleIcon" />
-                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full max-w-[165px] text-gray1 outline-none '>
+                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full sm:max-w-[165px] text-gray1 outline-none '>
                                         <option>Number of your guest</option>
                                         <option>below to 5</option>
                                         <option>5 to 20</option>
@@ -75,7 +75,7 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <a href="#search"><img className='w-[52px] h-[52px]' src={search} alt="search" /></a>
+                            <a href="#search"><img className='h-10 w-10 md:w-[52px] md:h-[52px]' src={search} alt="search" /></a>
 
                         </div>
 
