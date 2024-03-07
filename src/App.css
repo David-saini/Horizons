@@ -114,21 +114,21 @@ html {
     z-index: 100;
 }
 
-.slick-slide.slick-current .card {
+.slick-current .card {
     background-color: #359F35;
     color: white;
     border: #359F35;
 }
 
-.slick-slide.slick-current .card .tikkmark rect {
+.slick-current .card .tikkmark rect {
     fill: white;
 }
 
-.slick-slide.slick-current .card .tikkmark path {
+.slick-current .card .tikkmark path {
     stroke: #359F35;
 }
 
-.slick-slide.slick-current .card .link path {
+.slick-current .card .link path {
     fill: #fff;
 }
 
@@ -188,4 +188,33 @@ html {
     background-size: 16px 16px;
     background-repeat: no-repeat;
     background-position: right center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=============================== slider-class ==============================*/
+.swiper-slide-active .card {
+    background-color: #359F35;
+    color: white;
+    border: #359F35;
+}
+
+.swiper-slide-active .tikkmark rect {
+    fill: white;
+}
+
+.swiper-slide-active .tikkmark path {
+    stroke: #359F35;
+}
+
+.swiper-slide-active .link path {
+    fill: #fff;
 }

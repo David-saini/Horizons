@@ -11,7 +11,7 @@ const Header = () => {
             <img className='absolute left-[45%] md:left-[42%] top-[12%] md:top-[8%] max-w-[200px] md:max-w-[270px] lg:max-w-[319px] ' src={HeaderVector} alt="HeaderVector" />
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
-                    <div className='lg:pt-[204px] lg:pb-[124px] md:py-[100px] sm:py-20 py-12'>
+                    <div className='lg:pt-[204px] lg:pb-[124px] md:py-[100px] sm:py-20 py-12' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border border-solid border-white bg-yellow max-w-[400px] sm:max-w-[450px] md:max-w-[470px] lg:max-w-[537px] p-5 sm:p-8 md:p-10 backdrop rounded-[25px] md:rounded-[36px]'>
                             <h1 className='font-bold ff_kanit text-[40px] sm:text-[46px] md:text-[50px] lg:text-[55px] xl:text-xxxl leading-[120%] text-white'>Lets Discover a New Adventure</h1>
                             <p className='text-white ff_kanit leading-[150%] text-base mt-3 sm:mt-4'>Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio.</p>
