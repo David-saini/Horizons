@@ -12,8 +12,8 @@ const Gallery = () => {
     return (
         <div className='max-w-[1440px] mx-auto relative'>
             <img className='absolute top-[1%] md:top-[4%] lg:top-[6%] xl:top-[2%] left-2 xl:left-8 max-w-[60px] md:max-w-[80px] lg:max-w-[100px] xl:max-w-[128px]' src={BagVector} alt="BagVector" />
-            <div className='max-w-[1164px] px-5 md:px-3 mx-auto py-12 sm:py-16 md:py-20 lg:py-24 xl:py-[120px]'>
-                <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark lg:mb-10 sm:mb-8 mb-6'>Our <span className='text-lightgreen'> Gallery </span></h2>
+            <div className='max-w-[1164px] px-5 md:px-3 mx-auto py-12 sm:py-16 md:py-[70px] xl:py-[120px]'>
+                <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark xl:mb-10 md:mb-8 mb-6'>Our <span className='text-lightgreen'> Gallery </span></h2>
 
                 <div className='flex items-center justify-center flex-wrap gap-4 sm:gap-5 xl:gap-6'>
 

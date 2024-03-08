@@ -23,7 +23,7 @@ const FormSec = () => {
     };
 
     return (
-        <div className='max-w-[1440px] mx-auto pt-8 pb-12 sm:pt-16 sm:pb-20 lg:py-20'>
+        <div className='max-w-[1440px] mx-auto pt-8 pb-12 md:pt-14 md:pb-[70px] xl:py-20'>
             <div className="max-w-[1140px] px-5 md:px-3 mx-auto">
                 <div className='flex lg:flex-row flex-col items-center justify-center gap-6 sm:gap-[55px] md:gap-[65px] lg:gap-[84px]'>
 
@@ -41,7 +41,7 @@ const FormSec = () => {
                                             <img className='w-6 sm:w-8' src={Call} alt="Call" />
                                             <div className='flex flex-col sm:gap-2'>
                                                 <p className='text-black ff_kanit font-normal font-base leading-[150%]'>Call</p>
-                                                <p className='text-black ff_kanit font-light opacity-70 text-[14px] sm:text-base leading-[150%]'>+00 123 456 789</p>
+                                                <a href="tel:++00 123 456 789" className='text-black ff_kanit font-light opacity-70 text-[14px] sm:text-base leading-[150%]'>+00 123 456 789</a>
                                             </div>
                                         </div>
 
@@ -49,7 +49,7 @@ const FormSec = () => {
                                             <img className='w-6 sm:w-8' src={Mail} alt="Mail" />
                                             <div className='flex flex-col sm:gap-2'>
                                                 <p className='text-black ff_kanit font-normal font-base leading-[150%]'>Email</p>
-                                                <p className='text-black ff_kanit font-light opacity-70 text-[14px] sm:text-base leading-[150%]'>Investor@travel</p>
+                                                <a href="mailto:Investor@travel" className='text-black ff_kanit font-light opacity-70 text-[14px] sm:text-base leading-[150%]'>Investor@travel</a>
                                             </div>
                                         </div>
 
@@ -57,7 +57,7 @@ const FormSec = () => {
                                             <img className='w-6 sm:w-8' src={FilledLocation} alt="FilledLocation" />
                                             <div className='flex flex-col sm:gap-2'>
                                                 <p className='text-black ff_kanit font-normal font-base leading-[150%]'>Location</p>
-                                                <p className='text-black ff_kanit font-light opacity-70 text-[14px] sm:text-base leading-[150%]'>900 Abia Martin Drive, PA Canada-18104</p>
+                                                <a href='https://www.google.com/maps/search/900+Abia+Martin+Drive,+PA+Canada-18104/@49.0328897,-122.8075269,17z/data=!3m1!4b1?entry=ttu' target='_blank' className='text-black ff_kanit font-light opacity-70 text-[14px] sm:text-base leading-[150%]'>900 Abia Martin Drive, PA Canada-18104</a>
                                             </div>
                                         </div>
 

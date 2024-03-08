@@ -27,7 +27,10 @@ const Nav = () => {
             <div className='max-w-[1164px] px-3 mx-auto sticky top-0'>
 
                 <div className='flex items-center justify-between py-[11.4px] md:py-[19px]'>
-                    <Link><img className='w-[60px] md:w-[84.6px]' src={HeaderLogo} alt="HeaderLogo" /></Link>
+                    <Link className='flex flex-col items-center text-lightgreen'>
+                        <img className='w-[60px] md:w-[84.6px]' src={HeaderLogo} alt="HeaderLogo" />
+                        <p className='text-base md:text-lg ff_kanit font-bold leading-[150%]'>Horizon</p>
+                    </Link>
 
                     <div className='lg:hidden block'>
                         <div className={`${Menu ? 'show-nav' : 'nav-fix'}`}>
@@ -39,7 +42,10 @@ const Nav = () => {
                         </div>
 
                         <div className={`${Menu ? 'show-nav' : 'nav-fix'}`}>
-                            <Link><img className='w-[60px] md:w-[84.6px] absolute top-[12px] left-[15px] md:top-[20px]' src={HeaderLogo} alt="HeaderLogo" /></Link>
+                            <Link className='flex flex-col items-center text-lightgreen absolute top-[12px] left-[15px] md:top-[20px]'>
+                                <img className='w-[60px] md:w-[84.6px]' src={HeaderLogo} alt="HeaderLogo" />
+                                <p className='text-base md:text-lg ff_kanit font-bold leading-[150%]'>Horizon</p>
+                            </Link>
                             <div className='z-index-100' onClick={() => setMenu(false)}>
                                 <div className='absolute top-[20px] right-[15px] md:top-[40px]'>
                                     <Link><img className='w-[22px]' src={CrossIcon} alt="CrossIcon" onClick={toggleMenu} /></Link>

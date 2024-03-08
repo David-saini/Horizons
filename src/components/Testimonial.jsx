@@ -37,7 +37,7 @@ const Explore = () => {
     };
 
     return (
-        <div className="py-12 sm:py-[60px] md:py-20 lg:py-24 xl:py-[120px]">
+        <div className="py-12 sm:py-[60px] md:py-[70px] xl:py-[120px]">
 
             <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Testimonials</h2>
             <div className='max-w-[1440px] mx-auto relative'>
@@ -81,7 +81,7 @@ const Explore = () => {
                     >
 
                         <SwiperSlide className="swiper-slide">
-                            <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
+                            <div className='pt-6 pb-12 sm:py-8 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
                                         <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
