@@ -23,27 +23,27 @@ const Gallery = () => {
                         </div>
 
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg2} alt="GalleryImg1" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg2} alt="GalleryImg2" />
                         </div>
                     </div>
 
                     <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg3} alt="GalleryImg1" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg3} alt="GalleryImg3" />
                         </div>
 
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg4} alt="GalleryImg1" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg4} alt="GalleryImg4" />
                         </div>
                     </div>
 
                     <div className='gap-4 sm:gap-5 xl:gap-6 flex lg:flex-col flex-col sm:flex-row items-start'>
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg5} alt="GalleryImg1" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg5} alt="GalleryImg5" />
                         </div>
 
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg6} alt="GalleryImg1" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg6} alt="GalleryImg6" />
                         </div>
                     </div>
 
@@ -60,27 +60,27 @@ const Gallery = () => {
                                     </div>
 
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg2} alt="GalleryImg1" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg2} alt="GalleryImg2" />
                                     </div>
                                 </div>
 
                                 <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg3} alt="GalleryImg1" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg3} alt="GalleryImg3" />
                                     </div>
 
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg4} alt="GalleryImg1" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg4} alt="GalleryImg4" />
                                     </div>
                                 </div>
 
                                 <div className='gap-4 sm:gap-5 xl:gap-6 flex lg:flex-col flex-col sm:flex-row items-start'>
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg5} alt="GalleryImg1" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg5} alt="GalleryImg5" />
                                     </div>
 
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg6} alt="GalleryImg1" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg6} alt="GalleryImg6" />
                                     </div>
                                 </div>
 
