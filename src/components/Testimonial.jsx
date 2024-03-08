@@ -9,7 +9,6 @@ import BenjaminRobert from "../assets/Image/webp/BenjaminRobert.webp"
 import filledStar from "../assets/Image/webp/filledstar.webp"
 import UnfilledStar from "../assets/Image/webp/unfilledstar.webp"
 
-
 const Explore = () => {
     const goNext = () => {
         if (swiper.current && swiper.current.swiper) {
@@ -104,7 +103,6 @@ const Explore = () => {
                             </div>
                         </SwiperSlide>
 
-
                         <SwiperSlide className="swiper-slide" >
                             <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
@@ -128,7 +126,6 @@ const Explore = () => {
                             </div>
                         </SwiperSlide>
 
-
                         <SwiperSlide className="swiper-slide" >
                             <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
@@ -151,7 +148,6 @@ const Explore = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
-
 
                         <SwiperSlide className="swiper-slide" >
                             <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
