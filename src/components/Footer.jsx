@@ -10,7 +10,11 @@ const Footer = () => {
         <div className='bg-dark'>
             <div className="max-w-[1440px] mx-auto pt-12 sm:pt-[55px] md:pt-[66px]">
                 <div className="flex items-center flex-col justify-center">
-                    <Link><img className='w-[84.6px]' src={HeaderLogo} alt="HeaderLogo" /></Link>
+                    <Link className='flex flex-col items-center text-lightgreen'>
+                        <img className='w-[60px] md:w-[84.6px]' src={HeaderLogo} alt="HeaderLogo" />
+                        <p className='text-base md:text-lg ff_kanit font-bold leading-[150%]'>Horizon</p>
+                    </Link>
+
                     <p className='text-white max-w-[574px] opacity-60 ff_kanit font-light text-base leading-[150%] text-center my-5 sm:my-6'>Lorem ipsum dolor sit amet consectetur. Amet lobortis auctor ultricies consectetur. Vulputate lobortis aliquet pellentesque integer habitasse.</p>
 
                     <div className='flex items-center justify-center gap-6'>

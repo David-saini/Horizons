@@ -63,10 +63,10 @@ const Nav = () => {
                                     <button className='ff_kanit font-medium text-[20px] md:text-[24px] lg:text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] hover:bg-black bg-[#35A035] duration-300'>Sign Up</button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 
+                    {/*================================ desktop screen ==========================*/}
                     <div className='lg:block hidden'>
                         <ul className='flex align-items-center gap-6'>
                             <li><a href='#home' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base active'>Home</a></li>
