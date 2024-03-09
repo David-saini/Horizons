@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderLogo from "../assets/Image/webp/Logo.webp"
+import Logo from "../assets/Image/webp/Logo.webp"
 import FooterLine from "../assets/Image/webp/footerline.webp"
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, LinkedIn, Twitter, Youtube } from './Icon';
@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="max-w-[1440px] mx-auto pt-12 sm:pt-[55px] md:pt-[66px]">
                 <div className="flex items-center flex-col justify-center">
                     <Link className='flex flex-col items-center text-lightgreen'>
-                        <img className='w-[60px] md:w-[84.6px]' src={HeaderLogo} alt="HeaderLogo" />
+                        <img className='w-[60px] md:w-[84.6px]' src={Logo} alt="Logo" />
                         <p className='text-base md:text-lg ff_kanit font-bold leading-[150%]'>Horizon</p>
                     </Link>
 

@@ -52,7 +52,7 @@ const Faq = () => {
         <div className='max-w-[1440px] mx-auto xl:pb-6 relative' id='FAQ'>
             <img className='w-[50px] sm:w-[70px] md:w-[100px] xl:w-[132px] absolute bottom-[-3.5%] md:bottom-[-10%] lg:bottom-[2%] lg:left-2 xl:left-[38px]' src={Camera} alt="Camera" />
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
-                <img className="w-[71px] sm:h-[135px] top-0 md:top-[-5%] lg:top-[1%] right-0 lg:right-[5%] absolute" src={RightVector} alt="RightVector" />
+                <img className="w-[71px] sm:h-[135px] top-0 md:top-[-5%] lg:top-[1%] right-0 lg:right-[5%] absolute right_vector" src={RightVector} alt="RightVector" />
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 lg:mb-8 xl:mb-10'>Frequently <span className='text-lightgreen'>Asked </span>Questions</h2>
 
                 <div className='flex items-center justify-center flex-wrap z-10 relative'>

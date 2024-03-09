@@ -214,3 +214,40 @@ html {
 .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 0px !important;
 }
+
+/* =============Animation================== */
+.left_vector {
+    animation: left_vector 3s ease-in-out infinite;
+}
+
+@keyframes left_vector {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.right_vector {
+    animation: right_vector 3s linear infinite;
+}
+
+@keyframes right_vector {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
