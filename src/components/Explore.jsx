@@ -35,12 +35,12 @@ const Explore = () => {
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
                 <img className='absolute bottom-[-25%] lg:bottom-[-11%] left-2 max-w-[110px] max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] md:block hidden left_vector' src={LeftVector} alt="LeftVector" />
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 md:mb-8 xl:mb-10'>Explore <span className='text-lightgreen'>Beautiful </span>World</h2>
-
+                {/*================== video-div =====================*/}
                 <div className='border-white rounded-[21px] border-[16px] video_card max-w-[896px] mx-auto relative' data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300" data-aos-easing="linear" >
                     <div className='rounded-[8px] border-white border border-solid overflow-hidden'>
                         <video ref={videoRef} onClick={handleVideoClick} autoPlay={isPlaying} src={Video1} loop poster={poster} className='cursor-pointer'></video>
                     </div>
-
+                    {/*============ button ===============*/}
                     {!isPlaying && (
                         <button className='absolute top-[50%] left-[50%] translate-[-50%,-50%]' onClick={togglePlay}>
                             <img className='w-6 sm:w-8 md:w-10' src={VideoPlayerbtn} alt="VideoPlayerbtn" />

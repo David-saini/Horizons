@@ -31,7 +31,7 @@ const Nav = () => {
                         <img className='w-[60px] md:w-[84.6px]' src={HeaderLogo} alt="HeaderLogo" />
                         <p className='text-base md:text-lg ff_kanit font-bold leading-[150%]'>Horizon</p>
                     </Link>
-
+                    {/*====================== mobile-screen ====================*/}
                     <div className='lg:hidden block'>
                         <div className={`${Menu ? 'show-nav' : 'nav-fix'}`}>
                             <div className='z-index-100 relative' onClick={() => setMenu}>
