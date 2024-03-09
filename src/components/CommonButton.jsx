@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ShowMoreButton = ({ content }) => {
+const CommonButton = ({ content }) => {
     const [showMore, setShowMore] = useState(false);
 
     const toggleShowMore = () => {
@@ -26,4 +26,4 @@ const ShowMoreButton = ({ content }) => {
     );
 };
 
-export default ShowMoreButton;
+export default CommonButton;

@@ -10,18 +10,20 @@ import Thesiq from "../assets/Image/webp/TheSiq.webp"
 import Hawaii from "../assets/Image/webp/Hawaii.webp"
 import Camera from "../assets/Image/webp/CameraImg.webp"
 import PlaneVector from "../assets/Image/webp/PlaneVector.webp"
-import ShowMoreButton from './ShowMoreButton';
+import CommonButton from './CommonButton';
 
 const BestPlaces = () => {
     return (
         <div className='max-w-[1440px] mx-auto py-12 sm:py-16 md:py-[70px] mt-20 md:mt-24 xl:py-[120px] relative' id='Destinations'>
+            {/*=================================== Camera Vector ====================*/}
             <img className='w-[60px] sm:w-[70px] md:w-[100px] xl:w-[132px] top-5 xl:top-3 left-2 absolute' src={Camera} alt="Camera" />
+            {/*=================================== Plane Vector ====================*/}
             <img className='absolute top-[1%] md:top-0 right-0 xl:right-[4%] w-[130px] lg:w-[150px] xl:w-[177px]' src={PlaneVector} alt="PlaneVector" />
 
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
                 <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-6 md:mt-8 xl:mt-10'>
-
+                    {/*=================================== MysorePlace place card ====================*/}
                     <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] duration-300 img' src={MysorePlace} alt="MysorePlace" />
@@ -46,7 +48,7 @@ const BestPlaces = () => {
                             </div>
                         </div>
                     </div>
-
+                    {/*=================================== Tajmahal place card ====================*/}
                     <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] duration-300 img' src={TajMahal} alt="TajMahal" />
@@ -71,7 +73,7 @@ const BestPlaces = () => {
                             </div>
                         </div>
                     </div>
-
+                    {/*=================================== JaisalmerFort place card ====================*/}
                     <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] img duration-300' src={JaisalmerFort} alt="JaisalmerFort" />
@@ -96,7 +98,7 @@ const BestPlaces = () => {
                             </div>
                         </div>
                     </div>
-
+                    {/*=================================== CadmenBeach place card ====================*/}
                     <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] img duration-300' src={CadmenBeach} alt="CadmenBeach" />
@@ -121,7 +123,7 @@ const BestPlaces = () => {
                             </div>
                         </div>
                     </div>
-
+                    {/*=================================== Thesiq place card ====================*/}
                     <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] duration-300 img' src={Thesiq} alt="Thesiq" />
@@ -146,7 +148,7 @@ const BestPlaces = () => {
                             </div>
                         </div>
                     </div>
-
+                    {/*=================================== Hawaii place card ====================*/}
                     <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] duration-300 img' src={Hawaii} alt="Hawaii" />
@@ -173,11 +175,12 @@ const BestPlaces = () => {
                     </div>
 
                 </div>
-
-                <ShowMoreButton
+                {/*================================= view all btn ==============================*/}
+                <CommonButton
                     content={
                         <>
                             <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-4 xl:mt-6'>
+                                {/*=================================== MysorePlace place card ====================*/}
                                 <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                     <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                                         <img className='w-full max-w-[348px] duration-300 img' src={MysorePlace} alt="MysorePlace" />
@@ -202,7 +205,7 @@ const BestPlaces = () => {
                                         </div>
                                     </div>
                                 </div>
-
+                                {/*=================================== Tajmahal place card ====================*/}
                                 <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                     <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                                         <img className='w-full max-w-[348px] duration-300 img' src={TajMahal} alt="TajMahal" />
@@ -227,7 +230,7 @@ const BestPlaces = () => {
                                         </div>
                                     </div>
                                 </div>
-
+                                {/*=================================== Hawaii place card ====================*/}
                                 <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                     <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                                         <img className='w-full max-w-[348px] duration-300 img' src={Hawaii} alt="Hawaii" />

@@ -6,7 +6,7 @@ import TajMahalImg from "../assets/Image/webp/TajMahalImg.webp"
 import SnowCloudySky from "../assets/Image/webp/SnowCloudySky.webp"
 import VangViengImg from "../assets/Image/webp/VangViengImg.webp"
 import ThilandImg from "../assets/Image/webp/ThilandImg.webp"
-import ShowMoreButton from './ShowMoreButton';
+import CommonButton from './CommonButton';
 
 const OurGallery = () => {
     return (
@@ -49,7 +49,7 @@ const OurGallery = () => {
 
                 </div>
 
-                <ShowMoreButton
+                <CommonButton
                     content={
                         <>
                             <div className='flex items-center justify-center flex-wrap gap-4 sm:gap-5 mt-4 sm:mt-5 xl:mt-6 xl:gap-6'>
