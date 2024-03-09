@@ -217,7 +217,7 @@ html {
 
 /* =============Animation================== */
 .left_vector {
-    animation: left_vector 3s ease-in-out infinite;
+    animation: left_vector 4s ease-in-out infinite;
 }
 
 @keyframes left_vector {
@@ -226,7 +226,7 @@ html {
     }
 
     50% {
-        transform: rotate(10deg);
+        transform: rotate(20deg);
     }
 
     100% {
@@ -235,7 +235,7 @@ html {
 }
 
 .right_vector {
-    animation: right_vector 3s linear infinite;
+    animation: right_vector 4s linear infinite;
 }
 
 @keyframes right_vector {
@@ -244,7 +244,7 @@ html {
     }
 
     50% {
-        transform: rotate(-10deg);
+        transform: rotate(-20deg);
     }
 
     100% {
