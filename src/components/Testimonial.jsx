@@ -6,8 +6,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import BenjaminRobert from "../assets/Image/webp/BenjaminRobert.webp"
-import filledStar from "../assets/Image/webp/filledstar.webp"
-import UnfilledStar from "../assets/Image/webp/unfilledstar.webp"
+import filledStar from "../assets/Image/webp/FilledStar.webp"
+import UnfilledStar from "../assets/Image/webp/UnfilledStar.webp"
 
 const Explore = () => {
     const goNext = () => {

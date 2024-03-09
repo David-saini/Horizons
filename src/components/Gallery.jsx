@@ -1,11 +1,11 @@
 import React from 'react'
 import BagVector from "../assets/Image/webp/BagVector.webp"
-import GalleryImg1 from "../assets/Image/webp/GalleryImg1.webp"
-import GalleryImg2 from "../assets/Image/webp/GalleryImg2.webp"
-import GalleryImg3 from "../assets/Image/webp/GalleryImg3.webp"
-import GalleryImg4 from "../assets/Image/webp/GalleryImg4.webp"
-import GalleryImg5 from "../assets/Image/webp/GalleryImg5.webp"
-import GalleryImg6 from "../assets/Image/webp/GalleryImg6.webp"
+import ShirakawagoVillage from "../assets/Image/webp/ShirakawagoVillage.webp"
+import EiffelTower from "../assets/Image/webp/EiffelTower.webp"
+import TajMahalImg from "../assets/Image/webp/TajMahalImg.webp"
+import SnowCloudySky from "../assets/Image/webp/SnowCloudySky.webp"
+import VangViengImg from "../assets/Image/webp/VangViengImg.webp"
+import ThilandImg from "../assets/Image/webp/ThilandImg.webp"
 import ShowMoreButton from './ShowMoreButton';
 
 const Gallery = () => {
@@ -19,31 +19,31 @@ const Gallery = () => {
 
                     <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg1} alt="GalleryImg1" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={ShirakawagoVillage} alt="ShirakawagoVillage" />
                         </div>
 
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg2} alt="GalleryImg2" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={EiffelTower} alt="EiffelTower" />
                         </div>
                     </div>
 
                     <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg3} alt="GalleryImg3" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={TajMahalImg} alt="TajMahalImg" />
                         </div>
 
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg4} alt="GalleryImg4" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={SnowCloudySky} alt="SnowCloudySky" />
                         </div>
                     </div>
 
                     <div className='gap-4 sm:gap-5 xl:gap-6 flex lg:flex-col flex-col sm:flex-row items-start'>
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg5} alt="GalleryImg5" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={VangViengImg} alt="VangViengImg" />
                         </div>
 
                         <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg6} alt="GalleryImg6" />
+                            <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={ThilandImg} alt="ThilandImg" />
                         </div>
                     </div>
 
@@ -56,31 +56,31 @@ const Gallery = () => {
 
                                 <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg1} alt="GalleryImg1" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={ShirakawagoVillage} alt="ShirakawagoVillage" />
                                     </div>
 
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg2} alt="GalleryImg2" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={EiffelTower} alt="EiffelTower" />
                                     </div>
                                 </div>
 
                                 <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg3} alt="GalleryImg3" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={TajMahalImg} alt="TajMahalImg" />
                                     </div>
 
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg4} alt="GalleryImg4" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={SnowCloudySky} alt="SnowCloudySky" />
                                     </div>
                                 </div>
 
                                 <div className='gap-4 sm:gap-5 xl:gap-6 flex lg:flex-col flex-col sm:flex-row items-start'>
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg5} alt="GalleryImg5" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={VangViengImg} alt="VangViengImg" />
                                     </div>
 
                                     <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={GalleryImg6} alt="GalleryImg6" />
+                                        <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={ThilandImg} alt="ThilandImg" />
                                     </div>
                                 </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from "../assets/Image/webp/Logo.webp"
-import FooterLine from "../assets/Image/webp/footerline.webp"
+import FooterLine from "../assets/Image/webp/Footerline.webp"
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, LinkedIn, Twitter, Youtube } from './Icon';
 
