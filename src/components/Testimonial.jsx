@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Nextbtn, Prevbtn, } from './Icon';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -8,6 +7,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import BenjaminRobert from "../assets/Image/webp/BenjaminRobert.webp"
 import filledStar from "../assets/Image/webp/FilledStar.webp"
 import UnfilledStar from "../assets/Image/webp/UnfilledStar.webp"
+import { SliderNextbtn, SliderPrevbtn } from './Common/Icon';
 
 const Explore = () => {
     const goNext = () => {
@@ -41,8 +41,8 @@ const Explore = () => {
 
             <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Testimonials</h2>
             <div className='max-w-[1440px] mx-auto relative'>
-                <button className="absolute top-[50%] left-[5%] z-[10] xl:block hidden" onClick={goPrev}><Prevbtn /></button>
-                <button className="absolute top-[50%] right-[5%] z-[10] xl:block hidden" onClick={goNext}><Nextbtn /></button>
+                <button className="absolute top-[50%] left-[5%] z-[10] xl:block hidden" onClick={goPrev}><SliderPrevbtn /></button>
+                <button className="absolute top-[50%] right-[5%] z-[10] xl:block hidden" onClick={goNext}><SliderNextbtn /></button>
 
                 <div className='max-w-[1164px] mx-auto md:px-3 px-5'>
 

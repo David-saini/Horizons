@@ -12,7 +12,7 @@ import Camera from "../assets/Image/webp/CameraImg.webp"
 import PlaneVector from "../assets/Image/webp/PlaneVector.webp"
 import ShowMoreButton from './ShowMoreButton';
 
-const Vaccation = () => {
+const BestPlaces = () => {
     return (
         <div className='max-w-[1440px] mx-auto py-12 sm:py-16 md:py-[70px] mt-20 md:mt-24 xl:py-[120px] relative' id='Destinations'>
             <img className='w-[60px] sm:w-[70px] md:w-[100px] xl:w-[132px] top-5 xl:top-3 left-2 absolute' src={Camera} alt="Camera" />
@@ -263,4 +263,4 @@ const Vaccation = () => {
     )
 }
 
-export default Vaccation
+export default BestPlaces

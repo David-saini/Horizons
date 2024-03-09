@@ -8,7 +8,7 @@ import VangViengImg from "../assets/Image/webp/VangViengImg.webp"
 import ThilandImg from "../assets/Image/webp/ThilandImg.webp"
 import ShowMoreButton from './ShowMoreButton';
 
-const Gallery = () => {
+const OurGallery = () => {
     return (
         <div className='max-w-[1440px] mx-auto relative'>
             <img className='absolute top-[1%] md:top-[4%] lg:top-[6%] xl:top-[2%] left-2 xl:left-8 max-w-[60px] md:max-w-[80px] lg:max-w-[100px] xl:max-w-[128px]' src={BagVector} alt="BagVector" />
@@ -94,4 +94,4 @@ const Gallery = () => {
     )
 }
 
-export default Gallery
+export default OurGallery

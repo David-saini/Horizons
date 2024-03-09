@@ -47,7 +47,7 @@ const items = [
 ];
 
 
-const Faq = () => {
+const Faqs = () => {
     return (
         <div className='max-w-[1440px] mx-auto xl:pb-6 relative' id='FAQ'>
             <img className='w-[50px] sm:w-[70px] md:w-[100px] xl:w-[132px] absolute bottom-[-3.5%] md:bottom-[-10%] lg:bottom-[2%] lg:left-2 xl:left-[38px]' src={Camera} alt="Camera" />
@@ -69,4 +69,4 @@ const Faq = () => {
     )
 }
 
-export default Faq
+export default Faqs

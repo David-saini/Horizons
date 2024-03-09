@@ -1,16 +1,16 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { LearnMoreBtn, Nextbtn, Prevbtn, TikMark } from './Icon';
 import { Link } from 'react-router-dom';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import RightVector from "../assets/Image/webp/RightCurvedArrow.webp"
+import { LearnMoreBtn, SliderNextbtn, SliderPrevbtn, TikMark } from './Common/Icon';
 
 
 
-const Service = () => {
+const OurService = () => {
     const goNext = () => {
         if (swiper.current && swiper.current.swiper) {
             swiper.current.swiper.slideNext();
@@ -42,8 +42,8 @@ const Service = () => {
 
             <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Our <span className='text-lightgreen'>Services</span></h2>
             <div className='max-w-[1440px] mx-auto relative'>
-                <button className="absolute top-[50%] left-[5%] z-[10] xl:block hidden" onClick={goPrev}><Prevbtn /></button>
-                <button className="absolute top-[50%] right-[5%] z-[10] xl:block hidden" onClick={goNext}><Nextbtn /></button>
+                <button className="absolute top-[50%] left-[5%] z-[10] xl:block hidden" onClick={goPrev}><SliderPrevbtn /></button>
+                <button className="absolute top-[50%] right-[5%] z-[10] xl:block hidden" onClick={goNext}><SliderNextbtn /></button>
                 <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-[-15%] md:top-[-30%] lg:top-[-40%] right-[5%] xl:right-[12%] absolute right_vector" src={RightVector} alt="RightVector" />
                 <div className='max-w-[1164px] mx-auto md:px-3 px-5'>
 
@@ -139,4 +139,4 @@ const Service = () => {
     )
 }
 
-export default Service
+export default OurService

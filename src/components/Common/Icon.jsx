@@ -1,4 +1,4 @@
-export const Twitter = () => {
+export const TwitterIcon = () => {
     return (
         <div className="footer_icons">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,7 +11,7 @@ export const Twitter = () => {
     );
 };
 
-export const Facebook = () => {
+export const FacebookIcon = () => {
     return (
         <div className="footer_icons">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +23,7 @@ export const Facebook = () => {
     );
 };
 
-export const Instagram = () => {
+export const InstagramIcon = () => {
     return (
         <div className="footer_icons">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@ export const Instagram = () => {
     );
 };
 
-export const LinkedIn = () => {
+export const LinkedInIcon = () => {
     return (
         <div className="footer_icons">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@ export const LinkedIn = () => {
     );
 };
 
-export const Youtube = () => {
+export const YoutubeIcon = () => {
     return (
         <div className="">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +92,7 @@ export const LearnMoreBtn = () => {
     );
 };
 
-export const Nextbtn = () => {
+export const SliderNextbtn = () => {
     return (
         <svg className="arrows" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect className="transition-all duration-300" width="40" height="40" rx="20" fill="#C2BDBC" />
@@ -102,7 +102,7 @@ export const Nextbtn = () => {
 };
 
 
-export const Prevbtn = () => {
+export const SliderPrevbtn = () => {
     return (
         <svg className="arrows" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" >
             <rect className="transition-all duration-300" width="40" height="40" rx="20" transform="matrix(-1 0 0 1 40 0)" fill="#C2BDBC" />

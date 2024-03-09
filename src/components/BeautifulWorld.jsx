@@ -5,7 +5,7 @@ import Video1 from "../assets/video/video.mp4";
 import VideoPlayerbtn from "../assets/Image/webp/VideoPlayerBtn.webp"
 import LeftVector from "../assets/Image/webp/LeftCourvedarrow.webp"
 
-const Explore = () => {
+const BeautifulWorld = () => {
     const [isPlaying, setIsPlaying] = useState(false);
     const videoRef = useRef(null);
 
@@ -54,4 +54,4 @@ const Explore = () => {
     );
 };
 
-export default Explore;
+export default BeautifulWorld;

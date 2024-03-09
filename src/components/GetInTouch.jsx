@@ -3,7 +3,7 @@ import Call from "../assets/Image/webp/CalIIcon.webp"
 import Mail from "../assets/Image/webp/MailIcon.webp"
 import FilledLocation from "../assets/Image/webp/FilledLocation.webp"
 
-const FormSec = () => {
+const GetInTouch = () => {
 
     const [Name, setName] = useState("");
     const [Lastname, setLastname] = useState("");
@@ -93,4 +93,4 @@ const FormSec = () => {
     )
 }
 
-export default FormSec
+export default GetInTouch
