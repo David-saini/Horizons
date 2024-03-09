@@ -21,7 +21,7 @@ const BestPlaces = () => {
             <img className='absolute top-[1%] md:top-0 right-0 xl:right-[4%] w-[130px] lg:w-[150px] xl:w-[177px]' src={PlaneVector} alt="PlaneVector" />
 
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
-                <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
+                <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
                 <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-6 md:mt-8 xl:mt-10'>
                     {/*=================================== MysorePlace place card ====================*/}
                     <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
@@ -30,14 +30,14 @@ const BestPlaces = () => {
                         </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
-                                <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Mysore Palace</h5>
+                                <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>Mysore Palace</h5>
                                 <div className='flex items-center lg:gap-2 gap-1'>
                                     <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                    <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Karnataka, India</p>
+                                    <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Karnataka, India</p>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-2'>
-                                <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                 <div className='flex items-center gap-0.5'>
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
@@ -55,14 +55,14 @@ const BestPlaces = () => {
                         </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
-                                <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Taj Mahal</h5>
+                                <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>Taj Mahal</h5>
                                 <div className='flex items-center lg:gap-2 gap-1'>
                                     <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                    <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Agra, India</p>
+                                    <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Agra, India</p>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-2'>
-                                <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                 <div className='flex items-center gap-0.5'>
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
@@ -80,14 +80,14 @@ const BestPlaces = () => {
                         </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
-                                <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Jaisalmer Fort</h5>
+                                <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>Jaisalmer Fort</h5>
                                 <div className='flex items-center lg:gap-2 gap-1'>
                                     <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                    <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Rajasthan, India</p>
+                                    <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Rajasthan, India</p>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-2'>
-                                <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                 <div className='flex items-center gap-0.5'>
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
@@ -105,14 +105,14 @@ const BestPlaces = () => {
                         </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
-                                <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Camden Beach</h5>
+                                <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>Camden Beach</h5>
                                 <div className='flex items-center lg:gap-2 gap-1'>
                                     <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                    <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>London, England</p>
+                                    <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>London, England</p>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-2'>
-                                <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                 <div className='flex items-center gap-0.5'>
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
@@ -130,14 +130,14 @@ const BestPlaces = () => {
                         </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
-                                <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>The Siq</h5>
+                                <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>The Siq</h5>
                                 <div className='flex items-center lg:gap-2 gap-1'>
                                     <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                    <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Petra, Jordan</p>
+                                    <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Petra, Jordan</p>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-2'>
-                                <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                 <div className='flex items-center gap-0.5'>
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
@@ -155,14 +155,14 @@ const BestPlaces = () => {
                         </div>
                         <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                             <div className='flex flex-col gap-2'>
-                                <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Maui, Hawaii</h5>
+                                <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>Maui, Hawaii</h5>
                                 <div className='flex items-center lg:gap-2 gap-1'>
                                     <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                    <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>New York City, USA</p>
+                                    <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>New York City, USA</p>
                                 </div>
                             </div>
                             <div className='flex flex-col gap-2'>
-                                <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                 <div className='flex items-center gap-0.5'>
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                     <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
@@ -187,14 +187,14 @@ const BestPlaces = () => {
                                     </div>
                                     <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                         <div className='flex flex-col gap-2'>
-                                            <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Mysore Palace</h5>
+                                            <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>Mysore Palace</h5>
                                             <div className='flex items-center lg:gap-2 gap-1'>
                                                 <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                                <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Karnataka, India</p>
+                                                <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Karnataka, India</p>
                                             </div>
                                         </div>
                                         <div className='flex flex-col gap-2'>
-                                            <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                            <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                             <div className='flex items-center gap-0.5'>
                                                 <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                                 <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
@@ -212,14 +212,14 @@ const BestPlaces = () => {
                                     </div>
                                     <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                         <div className='flex flex-col gap-2'>
-                                            <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Taj Mahal</h5>
+                                            <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>Taj Mahal</h5>
                                             <div className='flex items-center lg:gap-2 gap-1'>
                                                 <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                                <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Agra, India</p>
+                                                <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>Agra, India</p>
                                             </div>
                                         </div>
                                         <div className='flex flex-col gap-2'>
-                                            <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                            <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                             <div className='flex items-center gap-0.5'>
                                                 <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                                 <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
@@ -237,14 +237,14 @@ const BestPlaces = () => {
                                     </div>
                                     <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                         <div className='flex flex-col gap-2'>
-                                            <h5 className='text-dark ff_kanit font-bold text-lg lg:text-xl leading-[120%]'>Maui, Hawaii</h5>
+                                            <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>Maui, Hawaii</h5>
                                             <div className='flex items-center lg:gap-2 gap-1'>
                                                 <img className='w-5 lg:w-6' src={LocationIcon} alt="LocationIcon" />
-                                                <p className='ff_kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>New York City, USA</p>
+                                                <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>New York City, USA</p>
                                             </div>
                                         </div>
                                         <div className='flex flex-col gap-2'>
-                                            <p className='ff_kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
+                                            <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490 <span className='text-base font-light text-gray1'>/3days</span></p>
                                             <div className='flex items-center gap-0.5'>
                                                 <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />
                                                 <img className='w-4 lg:w-5' src={FilledStar} alt="FilledStar" />

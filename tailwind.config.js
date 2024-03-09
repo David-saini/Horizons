@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        kanit: "kanit",
+        jost: "Jost",
+      },
       fontSize: {
         // xs: "16px",textbase
         // sm: "18px",text-lg

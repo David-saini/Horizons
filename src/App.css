@@ -4,15 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/*============================ font-family============================== */
-.ff_kanit {
-    font-family: "kanit";
-}
-
-.ff_Jost {
-    font-family: "Jost";
-}
-
 .header_bg {
     background: url(/src/assets/Image/webp/HeaderBg.webp);
 }

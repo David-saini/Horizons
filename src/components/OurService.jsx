@@ -38,7 +38,7 @@ const OurService = () => {
     return (
         <div id="Services">
 
-            <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Our <span className='text-lightgreen'>Services</span></h2>
+            <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark'>Our <span className='text-lightgreen'>Services</span></h2>
             <div className='max-w-[1440px] mx-auto relative'>
                 <button className="absolute top-[50%] left-[5%] z-[10] xl:block hidden" onClick={prevarrow}><SliderPrevbtn /></button>
                 <button className="absolute top-[50%] right-[5%] z-[10] xl:block hidden" onClick={nextarrow}><SliderNextbtn /></button>
@@ -84,8 +84,8 @@ const OurService = () => {
                                 <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <TikMark />
-                                        <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] ff_kanit mt-4 card'>Customized Itineraries</h5>
-                                        <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] ff_kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
+                                        <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>Customized Itineraries</h5>
+                                        <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
                                         <Link className='mt-4 sm:6 md:mt-8'><LearnMoreBtn /></Link>
                                     </div>
                                 </div>
@@ -97,8 +97,8 @@ const OurService = () => {
                                 <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <TikMark />
-                                        <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] ff_kanit mt-4 card'>Destination Expertise</h5>
-                                        <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] ff_kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
+                                        <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>Destination Expertise</h5>
+                                        <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
                                         <Link className='mt-4 sm:6 md:mt-8'><LearnMoreBtn /></Link>
                                     </div>
                                 </div>
@@ -110,8 +110,8 @@ const OurService = () => {
                                 <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <TikMark />
-                                        <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] ff_kanit mt-4 card'>Travel Insurance</h5>
-                                        <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] ff_kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
+                                        <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>Travel Insurance</h5>
+                                        <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
                                         <Link className='mt-4 sm:6 md:mt-8'><LearnMoreBtn /></Link>
                                     </div>
                                 </div>
@@ -123,8 +123,8 @@ const OurService = () => {
                                 <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border vacationcard_shadow card'>
                                     <div className='flex flex-col items-center justify-center'>
                                         <TikMark />
-                                        <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] ff_kanit mt-4 card'>Destination Expertise</h5>
-                                        <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] ff_kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
+                                        <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>Destination Expertise</h5>
+                                        <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
                                         <Link className='mt-4 sm:6 md:mt-8'><LearnMoreBtn /></Link>
                                     </div>
                                 </div>

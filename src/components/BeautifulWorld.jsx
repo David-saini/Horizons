@@ -35,7 +35,7 @@ const BeautifulWorld = () => {
             <img className='absolute top-[-40%] md:top-[-20%] right-0 xl:right-[3%] w-[110px] md:w-[130px] lg:w-[150px] xl:w-[177px]' src={PlaneVector} alt="PlaneVector" />
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
                 <img className='absolute bottom-[-25%] lg:bottom-[-11%] left-2 max-w-[110px] max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] md:block hidden left_vector' src={LeftVector} alt="LeftVector" />
-                <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 md:mb-8 xl:mb-10'>Explore <span className='text-lightgreen'>Beautiful </span>World</h2>
+                <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark mb-6 md:mb-8 xl:mb-10'>Explore <span className='text-lightgreen'>Beautiful </span>World</h2>
                 {/*================== video-div =====================*/}
                 <div className='border-white rounded-[21px] border-[16px] video_card max-w-[896px] mx-auto relative' data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300" data-aos-easing="linear" >
                     <div className='rounded-[8px] border-white border border-solid overflow-hidden'>

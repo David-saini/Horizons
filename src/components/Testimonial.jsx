@@ -38,7 +38,7 @@ const Explore = () => {
     return (
         <div className="py-12 sm:py-[60px] md:py-[70px] xl:py-[120px]">
 
-            <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark'>Testimonials</h2>
+            <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark'>Testimonials</h2>
             <div className='max-w-[1440px] mx-auto relative'>
                 <button className="absolute top-[50%] left-[5%] z-[10] xl:block hidden" onClick={prevarrow}><SliderPrevbtn /></button>
                 <button className="absolute top-[50%] right-[5%] z-[10] xl:block hidden" onClick={nextarrow}><SliderNextbtn /></button>
@@ -83,11 +83,11 @@ const Explore = () => {
                             <div className='pt-6 pb-12 sm:py-8 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
-                                        <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
+                                        <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
                                         <div className="mt-6 flex items-center gap-4">
                                             <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
                                             <div className="flex flex-col gap-2">
-                                                <p className="text-dark opacity-60 ff_Jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
+                                                <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
                                                 <span className="flex items-center gap-1">
                                                     <img className="w-4" src={filledStar} alt="filledStar" />
                                                     <img className="w-4" src={filledStar} alt="filledStar" />
@@ -106,11 +106,11 @@ const Explore = () => {
                             <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
-                                        <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
+                                        <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
                                         <div className="mt-6 flex items-center gap-4">
                                             <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
                                             <div className="flex flex-col gap-2">
-                                                <p className="text-dark opacity-60 ff_Jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
+                                                <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
                                                 <span className="flex items-center gap-1">
                                                     <img className="w-4" src={filledStar} alt="filledStar" />
                                                     <img className="w-4" src={filledStar} alt="filledStar" />
@@ -129,11 +129,11 @@ const Explore = () => {
                             <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
-                                        <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
+                                        <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
                                         <div className="mt-6 flex items-center gap-4">
                                             <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
                                             <div className="flex flex-col gap-2">
-                                                <p className="text-dark opacity-60 ff_Jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
+                                                <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
                                                 <span className="flex items-center gap-1">
                                                     <img className="w-4" src={filledStar} alt="filledStar" />
                                                     <img className="w-4" src={filledStar} alt="filledStar" />
@@ -152,11 +152,11 @@ const Explore = () => {
                             <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                 <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white vacationcard_shadow card'>
                                     <div className='flex flex-col'>
-                                        <p className='text-black opacity-60 font-light text-base leading-[150%] ff_kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
+                                        <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
                                         <div className="mt-6 flex items-center gap-4">
                                             <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
                                             <div className="flex flex-col gap-2">
-                                                <p className="text-dark opacity-60 ff_Jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
+                                                <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
                                                 <span className="flex items-center gap-1">
                                                     <img className="w-4" src={filledStar} alt="filledStar" />
                                                     <img className="w-4" src={filledStar} alt="filledStar" />

@@ -55,7 +55,7 @@ const Faqs = () => {
                 {/*================ Curved-arrow ==============*/}
                 <img className="w-[71px] sm:h-[135px] top-0 md:top-[-5%] lg:top-[1%] right-0 lg:right-[5%] absolute right_vector" src={RightVector} alt="RightVector" />
                 {/*========== heading =================*/}
-                <h2 className='text-[30px] md:text-[40px] lg:text-xxl ff_kanit font-bold leading-[120%] text-center text-dark mb-6 lg:mb-8 xl:mb-10'>Frequently <span className='text-lightgreen'>Asked </span>Questions</h2>
+                <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark mb-6 lg:mb-8 xl:mb-10'>Frequently <span className='text-lightgreen'>Asked </span>Questions</h2>
 
                 <div className='flex items-center justify-center flex-wrap z-10 relative'>
                     <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >

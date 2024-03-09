@@ -14,9 +14,9 @@ const Header = () => {
                     {/*========================================= header_card ===============================================================*/}
                     <div className='lg:pt-[204px] lg:pb-[124px] md:py-[100px] sm:py-20 py-12' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border border-solid border-white bg-yellow max-w-[400px] sm:max-w-[450px] md:max-w-[470px] lg:max-w-[537px] p-5 sm:p-8 md:p-10 backdrop-filter backdrop-blur-[8px] rounded-[25px] md:rounded-[36px]'>
-                            <h1 className='font-bold ff_kanit text-[40px] sm:text-[46px] md:text-[50px] lg:text-[55px] xl:text-xxxl leading-[120%] text-white'>Lets Discover a New Adventure</h1>
-                            <p className='text-white ff_kanit leading-[150%] text-base font-light mt-3 sm:mt-4'>Lorem Ipsum Dolor Sit Amet Consectetur. In Ultrices Orci Urna Eget Fringilla Nisl Duis Lectus. Tincidunt Pretium Odio.</p>
-                            <button className='ff_kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] bg-[#35A035] mt-4 sm:mt-6 md:mt-8 duration-300 hover:bg-black'>Explore Now</button>
+                            <h1 className='font-bold font-kanit text-[40px] sm:text-[46px] md:text-[50px] lg:text-[55px] xl:text-xxxl leading-[120%] text-white'>Lets Discover a New Adventure</h1>
+                            <p className='text-white font-kanit leading-[150%] text-base font-light mt-3 sm:mt-4'>Lorem Ipsum Dolor Sit Amet Consectetur. In Ultrices Orci Urna Eget Fringilla Nisl Duis Lectus. Tincidunt Pretium Odio.</p>
+                            <button className='font-kanit font-medium text-base leading-[150%] px-6 py-[14px] text-white1 rounded-[16px] bg-[#35A035] mt-4 sm:mt-6 md:mt-8 duration-300 hover:bg-black'>Explore Now</button>
                         </div>
                     </div>
                     {/*==================================== selecter_card start========================================*/}
@@ -25,10 +25,10 @@ const Header = () => {
                         <div className='gap-2 sm:gap-6 lg:gap-5 xl:gap-8 flex items-center flex-col sm:flex-row justify-center xl:justify-between flex-wrap'>
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
-                                <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>From</p>
+                                <p className='font-kanit font-light text-base leading-[150%] text-gray1'>From</p>
                                 <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[300px] lg:w-[200px] xl:w-[221px] lg:max-h-[48px]'>
                                     <img className='w-4' src={LocationIcon} alt="LocationIcon" />
-                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full lg:max-w-[165px] text-gray1 outline-none custom_select'>
+                                    <select className='font-kanit text-[14px] leading-[100%] font-light !w-full lg:max-w-[165px] text-gray1 outline-none custom_select'>
                                         <option>Bali, Indonesia</option>
                                         <option>Karnataka, India</option>
                                         <option>Agra, India</option>
@@ -38,10 +38,10 @@ const Header = () => {
                             </div>
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
-                                <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>To</p>
+                                <p className='font-kanit font-light text-base leading-[150%] text-gray1'>To</p>
                                 <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[300px] lg:w-[200px] xl:w-[221px] lg:max-h-[48px]'>
                                     <img className='w-4' src={LocationIcon} alt="LocationIcon" />
-                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full lg:max-w-[165px] text-gray1 outline-none custom_select'>
+                                    <select className='font-kanit text-[14px] leading-[100%] font-light !w-full lg:max-w-[165px] text-gray1 outline-none custom_select'>
                                         <option>Bali, Indonesia</option>
                                         <option>Karnataka, India</option>
                                         <option>Agra, India</option>
@@ -51,10 +51,10 @@ const Header = () => {
                             </div>
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
-                                <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>Dates</p>
+                                <p className='font-kanit font-light text-base leading-[150%] text-gray1'>Dates</p>
                                 <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[300px] lg:w-[200px] xl:w-[221px] lg:max-h-[48px]'>
                                     <img className='w-4' src={CelenderIcon} alt="celenderIcon" />
-                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full lg:max-w-[165px] text-gray1 outline-none custom_select'>
+                                    <select className='font-kanit text-[14px] leading-[100%] font-light !w-full lg:max-w-[165px] text-gray1 outline-none custom_select'>
                                         <option>Select a date range</option>
                                         <option>1st to 10th</option>
                                         <option>11th to 20th</option>
@@ -64,10 +64,10 @@ const Header = () => {
                             </div>
 
                             <div className='flex flex-col gap-1 sm:gap-2'>
-                                <p className='ff_kanit font-light text-base leading-[150%] text-gray1'>Guest</p>
+                                <p className='font-kanit font-light text-base leading-[150%] text-gray1'>Guest</p>
                                 <div className='flex items-center gap-2 border border-solid border-[#c2e2c2] p-2.5 md:p-4 rounded-[48px] w-[300px] lg:w-[200px] xl:w-[221px] lg:max-h-[48px]'>
                                     <img className='w-4' src={PeopleIcon} alt="PeopleIcon" />
-                                    <select className='ff_kanit text-[14px] leading-[100%] font-light !w-full lg:max-w-[165px] text-gray1 outline-none custom_select'>
+                                    <select className='font-kanit text-[14px] leading-[100%] font-light !w-full lg:max-w-[165px] text-gray1 outline-none custom_select'>
                                         <option>Number of your guest</option>
                                         <option>below to 5</option>
                                         <option>5 to 20</option>
