@@ -17,15 +17,6 @@ html {
     background: url(/src/assets/Image/webp/HeaderBg.webp);
 }
 
-.backdrop {
-    backdrop-filter: blur(10px);
-}
-
-.active {
-    color: #359F35;
-    font-weight: 500;
-}
-
 /*============================== navbar ======================================*/
 .nav-fix {
     position: fixed;

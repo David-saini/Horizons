@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden !scroll-smooth'>
       <Nav />
       <Header />
       <BestPlaces />

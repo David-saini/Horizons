@@ -4,14 +4,13 @@ import Mail from "../assets/Image/webp/MailIcon.webp"
 import FilledLocation from "../assets/Image/webp/FilledLocation.webp"
 
 const GetInTouch = () => {
-
+    // Define state variables for form inputs
     const [Name, setName] = useState("");
     const [Lastname, setLastname] = useState("");
     const [Email, setEmail] = useState("");
     const [Mobile, setMobile] = useState("");
     const [Msg, setMsg] = useState("");
-
-
+    // Function to handle form submission
     const handleFormSubmission = (event) => {
         event.preventDefault();
         console.log(Name, Lastname, Email, Mobile, Msg);

@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 import HeaderLogo from "../assets/Image/webp/Logo.webp"
 import menu from "../assets/Image/png/Menu.png"
 import CrossIcon from "../assets/Image/png/CrossIcon.png"
-
+// Define the Nav functional component
 const Nav = () => {
     const [Menu, setMenu] = useState(false);
-
+    // Function to toggle the menu
     const toggleMenu = () => {
         setMenu(!Menu);
     };
-
+    // Function to close the menu
     const closeMenu = () => {
         setMenu(false);
     };
-
+    // Dynamically add or remove 'overflow-hidden' class based on menu state
     if (Menu) {
         document.body.classList.add("overflow-hidden");
     }
@@ -54,7 +54,7 @@ const Nav = () => {
 
                             <div className='flex items-center justify-center flex-col'>
                                 <ul className='flex items-center justify-center ps-0 mb-0'>
-                                    <li className='relative'><a href='#home' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-[20px] md:text-[24px] lg:text-base active' onClick={closeMenu}>Home</a></li>
+                                    <li className='relative'><a href='#home' className=' duration-300 leading-[126.5%] ff_kanit text-[20px] md:text-[24px] lg:text-base text-lightgreen font-medium' onClick={closeMenu}>Home</a></li>
                                     <li className='relative'><a href='#Destinations' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-[20px] md:text-[24px] lg:text-base hover:text-lightgreen nav_link' onClick={closeMenu}>Destinations</a></li>
                                     <li className='relative'><a href='#Services' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-[20px] md:text-[24px] lg:text-base hover:text-lightgreen nav_link' onClick={closeMenu}>Our Services</a></li>
                                     <li className='relative'><a href='#FAQ' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-[20px] md:text-[24px] lg:text-base hover:text-lightgreen nav_link' onClick={closeMenu}>FAQ’s</a></li>
@@ -69,7 +69,7 @@ const Nav = () => {
                     {/*================================ desktop screen ==========================*/}
                     <div className='lg:block hidden'>
                         <ul className='flex align-items-center gap-6'>
-                            <li><a href='#home' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base active'>Home</a></li>
+                            <li><a href='#home' className='duration-300 leading-[126.5%] ff_kanit text-base text-lightgreen font-medium'>Home</a></li>
                             <li><a href='#Destinations' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen nav_link'>Destinations</a></li>
                             <li><a href='#Services' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen nav_link'>Our Services</a></li>
                             <li><a href='#FAQ' className='text-gray1 duration-300 font-light leading-[126.5%] ff_kanit text-base hover:text-lightgreen nav_link'>FAQ’s</a></li>

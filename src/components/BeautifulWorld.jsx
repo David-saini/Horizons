@@ -6,9 +6,10 @@ import VideoPlayerbtn from "../assets/Image/webp/VideoPlayerBtn.webp"
 import LeftVector from "../assets/Image/webp/LeftCourvedarrow.webp"
 
 const BeautifulWorld = () => {
+    // State to manage video play/pause
     const [isPlaying, setIsPlaying] = useState(false);
     const videoRef = useRef(null);
-
+    // Function to toggle video play/pause
     const togglePlay = () => {
         if (videoRef.current.paused) {
             videoRef.current.play();
@@ -18,7 +19,7 @@ const BeautifulWorld = () => {
             setIsPlaying(false);
         }
     };
-
+    // Function to handle video click event
     const handleVideoClick = () => {
         if (isPlaying) {
             videoRef.current.pause();

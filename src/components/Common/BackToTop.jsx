@@ -15,13 +15,10 @@ const BackToTop = () => {
             behavior: 'smooth'
         });
     });
-
     // State to manage visibility of the back-to-top button
     const [visibility, setVisibility] = React.useState(false);
-
     // Ref to store the back-to-top button element
     const scrollTop = React.useRef();
-
     // Effect to handle visibility of the back-to-top button based on scroll position
     React.useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -31,7 +28,6 @@ const BackToTop = () => {
                 : scrollTop.current.style.display = 'none';
         });
     });
-
     // Rendering the back-to-top button
     return (
         <>
@@ -49,4 +45,3 @@ const BackToTop = () => {
 };
 
 export default BackToTop;
-

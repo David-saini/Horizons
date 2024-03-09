@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import RightVector from "../assets/Image/webp/RightCurvedArrow.webp"
-import { LearnMoreBtn, SliderNextbtn, SliderPrevbtn, TikMark } from './Common/Icon';
+import { LearnMoreBtn, SliderNextbtn, SliderPrevbtn, TikMark } from './Common/Icons';
 
 // Define the OurService functional component
 const OurService = () => {
