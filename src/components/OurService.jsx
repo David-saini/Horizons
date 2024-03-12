@@ -86,7 +86,7 @@ const OurService = () => {
                                         <TikMark />
                                         <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>Customized Itineraries</h5>
                                         <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
-                                        <Link className='mt-4 sm:6 md:mt-8'><LearnMoreBtn /></Link>
+                                        <Link className='mt-4 sm:6 md:mt-8 flex items-center gap-1 font-kanit font-medium text-base leading-[150%] text-lightgreen card'>Learn More<LearnMoreBtn /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ const OurService = () => {
                                         <TikMark />
                                         <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>Destination Expertise</h5>
                                         <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
-                                        <Link className='mt-4 sm:6 md:mt-8'><LearnMoreBtn /></Link>
+                                        <Link className='mt-4 sm:6 md:mt-8 flex items-center gap-1 font-kanit font-medium text-base leading-[150%] text-lightgreen card'>Learn More<LearnMoreBtn /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ const OurService = () => {
                                         <TikMark />
                                         <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>Travel Insurance</h5>
                                         <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
-                                        <Link className='mt-4 sm:6 md:mt-8'><LearnMoreBtn /></Link>
+                                        <Link className='mt-4 sm:6 md:mt-8 flex items-center gap-1 font-kanit font-medium text-base leading-[150%] text-lightgreen card'>Learn More<LearnMoreBtn /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ const OurService = () => {
                                         <TikMark />
                                         <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>Destination Expertise</h5>
                                         <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .</p>
-                                        <Link className='mt-4 sm:6 md:mt-8'><LearnMoreBtn /></Link>
+                                        <Link className='mt-4 sm:6 md:mt-8 flex items-center gap-1 font-kanit font-medium text-base leading-[150%] text-lightgreen card'>Learn More<LearnMoreBtn /></Link>
                                     </div>
                                 </div>
                             </div>
