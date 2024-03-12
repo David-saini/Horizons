@@ -11,7 +11,7 @@ const Helper = ({ items }) => {
         <div>
             {items.map((item, index) => (
                 <div key={index} className="pb-4 lg:w-[754px]">
-                    <div className={`bg-white rounded-[10px] ps-5 pe-6 input_card ${expandedIndex === index ? 'active' : ''}`}>
+                    <div className={`bg-white rounded-[10px] ps-5 pe-6 input_card shadow-inputShadow ${expandedIndex === index ? 'active' : ''}`}>
                         <h2>
                             <button
                                 type="button"

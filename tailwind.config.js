@@ -31,7 +31,8 @@ module.exports = {
       },
       backgroundImage: {
         headerbg: "url(/src/assets/Image/webp/HeaderBg.webp)",
-      }
+      },
+
     },
   },
   plugins: [],

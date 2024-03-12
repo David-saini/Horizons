@@ -15,7 +15,6 @@ html {
 
 .footer_icons svg:hover path {
     fill: #359F35;
-    transition: all 300ms linear;
 }
 
 .footer_icons svg rect:hover {
@@ -110,7 +109,6 @@ html {
 
 .vacation_card:hover .img {
     scale: 1.1;
-    transition: all 300ms linear;
 }
 
 .swiper-pagination-fraction,
