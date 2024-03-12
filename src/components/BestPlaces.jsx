@@ -24,7 +24,7 @@ const BestPlaces = () => {
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
                 <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-6 md:mt-8 xl:mt-10'>
                     {/*=================================== MysorePlace place card ====================*/}
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] duration-300 img' src={MysorePlace} alt="MysorePlace" />
                         </div>
@@ -49,7 +49,7 @@ const BestPlaces = () => {
                         </div>
                     </div>
                     {/*=================================== Tajmahal place card ====================*/}
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] duration-300 img' src={TajMahal} alt="TajMahal" />
                         </div>
@@ -74,7 +74,7 @@ const BestPlaces = () => {
                         </div>
                     </div>
                     {/*=================================== JaisalmerFort place card ====================*/}
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] img duration-300' src={JaisalmerFort} alt="JaisalmerFort" />
                         </div>
@@ -99,7 +99,7 @@ const BestPlaces = () => {
                         </div>
                     </div>
                     {/*=================================== CadmenBeach place card ====================*/}
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] img duration-300' src={CadmenBeach} alt="CadmenBeach" />
                         </div>
@@ -124,7 +124,7 @@ const BestPlaces = () => {
                         </div>
                     </div>
                     {/*=================================== Thesiq place card ====================*/}
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] duration-300 img' src={Thesiq} alt="Thesiq" />
                         </div>
@@ -149,7 +149,7 @@ const BestPlaces = () => {
                         </div>
                     </div>
                     {/*=================================== Hawaii place card ====================*/}
-                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                    <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                             <img className='w-full max-w-[348px] duration-300 img' src={Hawaii} alt="Hawaii" />
                         </div>
@@ -181,7 +181,7 @@ const BestPlaces = () => {
                         <>
                             <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-4 xl:mt-6'>
                                 {/*=================================== MysorePlace place card ====================*/}
-                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                     <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                                         <img className='w-full max-w-[348px] duration-300 img' src={MysorePlace} alt="MysorePlace" />
                                     </div>
@@ -206,7 +206,7 @@ const BestPlaces = () => {
                                     </div>
                                 </div>
                                 {/*=================================== Tajmahal place card ====================*/}
-                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                     <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                                         <img className='w-full max-w-[348px] duration-300 img' src={TajMahal} alt="TajMahal" />
                                     </div>
@@ -231,7 +231,7 @@ const BestPlaces = () => {
                                     </div>
                                 </div>
                                 {/*=================================== Hawaii place card ====================*/}
-                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] vacationcard_shadow vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                <div className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                     <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
                                         <img className='w-full max-w-[348px] duration-300 img' src={Hawaii} alt="Hawaii" />
                                     </div>

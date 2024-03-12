@@ -24,6 +24,14 @@ module.exports = {
         dark: "#000700",
         grey2: "#4d524d",
       },
+      boxShadow: {
+        shadow1: "4.139534950256348px 4.139534950256348px 16.55813980102539px 0px #00000029",
+        videocard: "8px 8px 48px 0px #00000029",
+        inputShadow: "4px 4px 16px 0px #00000029",
+      },
+      backgroundImage: {
+        headerbg: "url(/src/assets/Image/webp/HeaderBg.webp)",
+      }
     },
   },
   plugins: [],

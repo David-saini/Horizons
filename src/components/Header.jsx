@@ -7,7 +7,7 @@ import search from "../assets/Image/webp/Search.webp"
 
 const Header = () => {
     return (
-        <div className='header_bg min_h_screen !bg-center !bg-cover !bg-no-repeat relative'>
+        <div className='bg-headerbg min_h_screen !bg-center !bg-cover !bg-no-repeat relative'>
             <img className='absolute left-[45%] md:left-[42%] top-[12%] md:top-[8%] max-w-[200px] md:max-w-[270px] lg:max-w-[319px] ' src={HeaderVector} alt="HeaderVector" />
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
@@ -20,7 +20,7 @@ const Header = () => {
                         </div>
                     </div>
                     {/*==================================== selecter_card start========================================*/}
-                    <div className='bg-white border-white border-solid rounded-[16px] sm:rounded-[32px] p-4 sm:p-6 xl:p-8 input_card mt-[-80px] sm:mt-[-120px] translate-y-[20%] sm:translate-y-[40%] lg:translate-y-[50%] xl:translate-y-[70%] lg:mt-[-145px] mt_0'>
+                    <div className='bg-white border-white border-solid rounded-[16px] sm:rounded-[32px] p-4 sm:p-6 xl:p-8 shadow-inputShadow mt-[-80px] sm:mt-[-120px] translate-y-[20%] sm:translate-y-[40%] lg:translate-y-[50%] xl:translate-y-[70%] lg:mt-[-145px] mt_0'>
 
                         <div className='gap-2 sm:gap-6 lg:gap-5 xl:gap-8 flex items-center flex-col sm:flex-row justify-center xl:justify-between flex-wrap'>
 

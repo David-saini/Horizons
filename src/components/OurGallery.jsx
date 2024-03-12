@@ -20,31 +20,31 @@ const OurGallery = () => {
 
                     <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
                         {/*======================================== ShirakawagoVillage =======================================*/}
-                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
+                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
                             <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={ShirakawagoVillage} alt="ShirakawagoVillage" />
                         </div>
                         {/*======================================== EiffelTower =======================================*/}
-                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
+                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
                             <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={EiffelTower} alt="EiffelTower" />
                         </div>
                     </div>
                     {/*======================================== TajMahalImg =======================================*/}
                     <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
-                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                             <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={TajMahalImg} alt="TajMahalImg" />
                         </div>
                         {/*======================================== SnowCloudySky =======================================*/}
-                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                             <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={SnowCloudySky} alt="SnowCloudySky" />
                         </div>
                     </div>
                     {/*======================================== VangViengImg =======================================*/}
                     <div className='gap-4 sm:gap-5 xl:gap-6 flex lg:flex-col flex-col sm:flex-row items-start'>
-                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                             <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={VangViengImg} alt="VangViengImg" />
                         </div>
                         {/*======================================== ThilandImg =======================================*/}
-                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                        <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                             <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={ThilandImg} alt="ThilandImg" />
                         </div>
                     </div>
@@ -58,31 +58,31 @@ const OurGallery = () => {
 
                                 <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
                                     {/*======================================== ShirakawagoVillage =======================================*/}
-                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                         <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={ShirakawagoVillage} alt="ShirakawagoVillage" />
                                     </div>
                                     {/*======================================== EiffelTower =======================================*/}
-                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                         <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={EiffelTower} alt="EiffelTower" />
                                     </div>
                                 </div>
                                 {/*======================================== TajMahalImg =======================================*/}
                                 <div className='gap-4 sm:gap-5 xl:gap-6 flex flex-col'>
-                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                         <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={TajMahalImg} alt="TajMahalImg" />
                                     </div>
                                     {/*======================================== SnowCloudySky =======================================*/}
-                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                         <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={SnowCloudySky} alt="SnowCloudySky" />
                                     </div>
                                 </div>
                                 {/*======================================== VangViengImg =======================================*/}
                                 <div className='gap-4 sm:gap-5 xl:gap-6 flex lg:flex-col flex-col sm:flex-row items-start'>
-                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                         <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={VangViengImg} alt="VangViengImg" />
                                     </div>
                                     {/*======================================== ThilandImg =======================================*/}
-                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] vacationcard_shadow cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                    <div className='border-white rounded-[16px] overflow-hidden border-[5px] sm:max-w-[320px] xl:max-w-[364px] shadow-shadow1 cursor-pointer' data-aos="zoom-out" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                         <img className='sm:max-w-[310px] xl:max-w-[354px] hover:scale-[1.1] duration-300' src={ThilandImg} alt="ThilandImg" />
                                     </div>
                                 </div>

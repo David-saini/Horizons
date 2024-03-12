@@ -4,23 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.header_bg {
-    background: url(/src/assets/Image/webp/HeaderBg.webp);
-}
-
-/*=================================== shadows ================================*/
-.video_card {
-    box-shadow: 8px 8px 48px 0px #00000029;
-}
-
-.input_card {
-    box-shadow: 4px 4px 16px 0px #00000029;
-}
-
-.vacationcard_shadow {
-    box-shadow: 4.139534950256348px 4.139534950256348px 16.55813980102539px 0px #00000029;
-}
-
 /*=============================== icon-fill ================================*/
 .footer_icons svg rect {
     fill: #359F35;
