@@ -68,20 +68,36 @@ const GetInTouch = () => {
 
                     {/*================================= form_div ==================================================*/}
                     <div className='max-w-[700px] w-full lg:max-w-[461px]' data-aos="fade-left" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
-                        <form onSubmit={handleFormSubmission}>
+                        <form onSubmit={submitBtn}>
                             <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[21px]'>
-                                <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='First Name' type="text" value={Name} onChange={(e) => setName(e.target.value)} />
-                                <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Last Name' type="text" value={Lastname} onChange={(e) => setLastname(e.target.value)} />
+                                <div className='relative'>
+                                    <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='First Name' type="text" onChange={(e) =>
+                                        setValue({ ...dataValue, firstname: e.target.value })} value={dataValue.firstname} />
+                                    <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.firstname == "" ? "Required field!" : ""} </span>
+                                </div>
+                                <div className='relative'>
+                                    <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Last Name' type="text" onChange={(e) =>
+                                        setValue({ ...dataValue, lastname: e.target.value })} value={dataValue.lastname} />
+                                    <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.lastname == "" ? "Required field!" : ""}</span>
+                                </div>
                             </div>
                             <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[21px] mt-4'>
-                                <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Email' type="Email" value={Email} onChange={(e) => setEmail(e.target.value)} />
-                                <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="phone" value={Mobile} onChange={(e) => setMobile(e.target.value)} />
+                                <div className='relative'>
+                                    <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Email' type="Email" onChange={(e) =>
+                                        setValue({ ...dataValue, email: e.target.value })} value={dataValue.email} />
+                                    <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.email == "" ? "Required field!" : ""} </span>
+                                </div>
+                                <div className='relative'>
+                                    <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="phone" onChange={(e) =>
+                                        setValue({ ...dataValue, phone: e.target.value })} value={dataValue.phone} />
+                                    <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.phone == "" ? "Required field!" : ""} </span>
+                                </div>
                             </div>
                             <div className='flex items-center justify-center gap-[21px] mt-4'>
-                                <textarea placeholder='Write your message...' className='font-light text-base font-kanit w-full min-h-[140px] leading-[150%] rounded-[16px] p-4 shadow-inputShadow resize-none outline-none' type='text' value={Msg} onChange={(e) => setMsg(e.target.value)}></textarea>
+                                <textarea onChange={(e) => setValue({ ...dataValue, message: e.target.value })} value={dataValue.message} placeholder='Write your message...' className='font-light text-base font-kanit w-full min-h-[140px] leading-[150%] rounded-[16px] p-4 shadow-inputShadow resize-none outline-none' type='text' ></textarea>
                             </div>
                             <div className='flex items-center justify-center'>
-                                <button type="submit" className='w-full max-w-[461px] h-[52px] rounded-[16px] bg-lightgreen text-white1 font-kanit font-medium text-base leading-[150%] mt-6 sm:mt-8 hover:bg-black duration-300'>Submit</button>
+                                <button onClick={(e) => submitBtn(e)} type="submit" className='w-full max-w-[461px] h-[52px] rounded-[16px] bg-lightgreen text-white1 font-kanit font-medium text-base leading-[150%] mt-6 sm:mt-8 hover:bg-black duration-300'>Submit</button>
                             </div>
                         </form>
                     </div>
