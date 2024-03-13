@@ -8,8 +8,7 @@ import StarImg from "../assets/Image/webp/FilledStar.webp"
 import UnfilledStar from '../assets/Image/webp/UnfilledStar.webp'
 import locationicon from "../assets/Image/webp/LocationIcon.webp"
 
-//======================== oursevices cards
-
+//======================== best places cards
 export const Card = [
     {
         id: 1,
@@ -66,4 +65,32 @@ export const Card = [
         img4: locationicon,
     },
 
+]
+
+//======================== oursevices cards
+export const sliderCard1 = [
+    {
+        id: 1,
+        heading1: "Customized Itineraries",
+        paragraph1: "Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .",
+        text: "Learn More",
+    },
+    {
+        id: 2,
+        heading1: "Destination Expertise",
+        paragraph1: "Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .",
+        text: "Learn More",
+    },
+    {
+        id: 3,
+        heading1: "Travel Insurance",
+        paragraph1: "Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .",
+        text: "Learn More",
+    },
+    {
+        id: 4,
+        heading1: "Customized Itineraries",
+        paragraph1: "Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .",
+        text: "Learn More",
+    },
 ]
