@@ -2,24 +2,45 @@ import { useState } from 'react'
 import Call from "../assets/Image/webp/CalIIcon.webp"
 import Mail from "../assets/Image/webp/MailIcon.webp"
 import FilledLocation from "../assets/Image/webp/FilledLocation.webp"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const GetInTouch = () => {
-    // Define state variables for form inputs
-    const [Name, setName] = useState("");
-    const [Lastname, setLastname] = useState("");
-    const [Email, setEmail] = useState("");
-    const [Mobile, setMobile] = useState("");
-    const [Msg, setMsg] = useState("");
-    // Function to handle form submission
-    const handleFormSubmission = (event) => {
-        event.preventDefault();
-        console.log(Name, Lastname, Email, Mobile, Msg);
-        setName("");
-        setLastname("");
-        setEmail("");
-        setMobile("");
-        setMsg("");
+    const myData = {
+        firstname: "",
+        lastname: "",
+        email: "",
+        phone: "",
+        message: "",
     };
+    const emailRegex =
+        /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+
+    const [dataValue, setValue] = useState(myData);
+    const [error, setError] = useState(false);
+
+    const isFormValid = () => {
+        return (
+            dataValue.firstname.trim() !== "" &&
+            dataValue.lastname.trim() !== "" &&
+            dataValue.email.trim() !== "" &&
+            emailRegex.test(dataValue.email.trim()) &&
+            dataValue.phone.trim() !== ""
+        );
+    };
+
+    const submitBtn = (e) => {
+        e.preventDefault();
+        setError(true);
+        if (isFormValid()) {
+            setValue(myData);
+            setError(false);
+            toast.success("Form submitted successfully");
+        } else {
+            // Handle invalid form submission if needed
+        }
+    };
+
 
     return (
         <div className='max-w-[1440px] mx-auto pt-8 pb-12 md:pt-14 md:pb-[70px] xl:py-20'>
@@ -75,12 +96,14 @@ const GetInTouch = () => {
                                         setValue({ ...dataValue, firstname: e.target.value })} value={dataValue.firstname} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.firstname == "" ? "Required field!" : ""} </span>
                                 </div>
+
                                 <div className='relative'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Last Name' type="text" onChange={(e) =>
                                         setValue({ ...dataValue, lastname: e.target.value })} value={dataValue.lastname} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.lastname == "" ? "Required field!" : ""}</span>
                                 </div>
                             </div>
+
                             <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[21px] mt-4'>
                                 <div className='relative'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Email' type="Email" onChange={(e) =>
@@ -88,17 +111,22 @@ const GetInTouch = () => {
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.email == "" ? "Required field!" : ""} </span>
                                 </div>
                                 <div className='relative'>
-                                    <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="phone" onChange={(e) =>
+                                    <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="number" onChange={(e) =>
                                         setValue({ ...dataValue, phone: e.target.value })} value={dataValue.phone} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.phone == "" ? "Required field!" : ""} </span>
                                 </div>
                             </div>
+
                             <div className='flex items-center justify-center gap-[21px] mt-4'>
                                 <textarea onChange={(e) => setValue({ ...dataValue, message: e.target.value })} value={dataValue.message} placeholder='Write your message...' className='font-light text-base font-kanit w-full min-h-[140px] leading-[150%] rounded-[16px] p-4 shadow-inputShadow resize-none outline-none' type='text' ></textarea>
+                                <span className="inline-block absolute left-4 bottom-[18%] text-red-600 text-[10px]"> {error && dataValue.message == "" ? "Required field!" : ""} </span>
                             </div>
+
                             <div className='flex items-center justify-center'>
                                 <button onClick={(e) => submitBtn(e)} type="submit" className='w-full max-w-[461px] h-[52px] rounded-[16px] bg-lightgreen text-white1 font-kanit font-medium text-base leading-[150%] mt-6 sm:mt-8 hover:bg-black duration-300'>Submit</button>
                             </div>
+
+                            <ToastContainer />
                         </form>
                     </div>
 
