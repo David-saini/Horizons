@@ -16,7 +16,7 @@ const GetInTouch = () => {
     const emailRegex =
         /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
-    const [dataValue, setValue] = useState(myData);
+    const [dataValue, setDataValue] = useState(myData);
     const [error, setError] = useState(false);
 
     const isFormValid = () => {
@@ -25,6 +25,7 @@ const GetInTouch = () => {
             dataValue.lastname.trim() !== "" &&
             dataValue.email.trim() !== "" &&
             emailRegex.test(dataValue.email.trim()) &&
+            dataValue.message.trim() !== "" &&
             dataValue.phone.trim() !== ""
         );
     };
@@ -33,7 +34,7 @@ const GetInTouch = () => {
         e.preventDefault();
         setError(true);
         if (isFormValid()) {
-            setValue(myData);
+            setDataValue(myData);
             setError(false);
             toast.success("Form submitted successfully");
         } else {
@@ -93,13 +94,13 @@ const GetInTouch = () => {
                             <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[21px]'>
                                 <div className='relative'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='First Name' type="text" onChange={(e) =>
-                                        setValue({ ...dataValue, firstname: e.target.value })} value={dataValue.firstname} />
+                                        setDataValue({ ...dataValue, firstname: e.target.value })} value={dataValue.firstname} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.firstname == "" ? "Required field!" : ""} </span>
                                 </div>
 
                                 <div className='relative'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Last Name' type="text" onChange={(e) =>
-                                        setValue({ ...dataValue, lastname: e.target.value })} value={dataValue.lastname} />
+                                        setDataValue({ ...dataValue, lastname: e.target.value })} value={dataValue.lastname} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.lastname == "" ? "Required field!" : ""}</span>
                                 </div>
                             </div>
@@ -107,18 +108,18 @@ const GetInTouch = () => {
                             <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[21px] mt-4'>
                                 <div className='relative'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Email' type="Email" onChange={(e) =>
-                                        setValue({ ...dataValue, email: e.target.value })} value={dataValue.email} />
+                                        setDataValue({ ...dataValue, email: e.target.value })} value={dataValue.email} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.email == "" ? "Required field!" : ""} </span>
                                 </div>
                                 <div className='relative'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="number" onChange={(e) =>
-                                        setValue({ ...dataValue, phone: e.target.value })} value={dataValue.phone} />
+                                        setDataValue({ ...dataValue, phone: e.target.value })} value={dataValue.phone} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.phone == "" ? "Required field!" : ""} </span>
                                 </div>
                             </div>
 
                             <div className='flex items-center justify-center gap-[21px] mt-4'>
-                                <textarea onChange={(e) => setValue({ ...dataValue, message: e.target.value })} value={dataValue.message} placeholder='Write your message...' className='font-light text-base font-kanit w-full min-h-[140px] leading-[150%] rounded-[16px] p-4 shadow-inputShadow resize-none outline-none' type='text' ></textarea>
+                                <textarea onChange={(e) => setDataValue({ ...dataValue, message: e.target.value })} value={dataValue.message} placeholder='Write your message...' className='font-light text-base font-kanit w-full min-h-[140px] leading-[150%] rounded-[16px] p-4 shadow-inputShadow resize-none outline-none' type='text' ></textarea>
                                 <span className="inline-block absolute left-4 bottom-[18%] text-red-600 text-[10px]"> {error && dataValue.message == "" ? "Required field!" : ""} </span>
                             </div>
 
@@ -127,6 +128,7 @@ const GetInTouch = () => {
                             </div>
 
                             <ToastContainer />
+
                         </form>
                     </div>
 
