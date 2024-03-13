@@ -1,39 +1,37 @@
-
-import './App.css';
+import "./App.css";
 import React, { useEffect } from "react";
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Nav from './components/Nav';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Testimonial from './components/Testimonial';
+// import Testimonial from './components/Testimonial';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import BackToTop from './components/Common/BackToTop';
-import GetInTouch from './components/GetInTouch';
-import Faqs from './components/Faqs';
-import BeautifulWorld from './components/BeautifulWorld';
-import OurGallery from './components/OurGallery';
-import OurService from './components/OurService';
-import BestPlaces from './components/BestPlaces';
+import BackToTop from "./components/Common/BackToTop";
+import GetInTouch from "./components/GetInTouch";
+// import Faqs from './components/Faqs';
+// import BeautifulWorld from './components/BeautifulWorld';
+// import OurGallery from './components/OurGallery';
+// import OurService from './components/OurService';
+// import BestPlaces from './components/BestPlaces';
 
 function App() {
-
   useEffect(() => {
     AOS.init({ once: true });
     AOS.refresh();
   }, []);
 
   return (
-    <div className='overflow-hidden !scroll-smooth'>
-      <Nav />
+    <div className="overflow-hidden !scroll-smooth">
+      {/* <Nav />
       <Header />
       <BestPlaces />
       <OurService />
       <OurGallery />
       <BeautifulWorld />
       <Testimonial />
-      <Faqs />
+      <Faqs /> */}
       <GetInTouch />
       <Footer />
       <BackToTop />

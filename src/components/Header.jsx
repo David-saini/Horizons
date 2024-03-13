@@ -1,9 +1,9 @@
 import React from 'react'
-import HeaderVector from "../assets/Image/webp/HeaderVector.webp"
+import HeaderVector from "../assets/Image/webp/headervector.webp"
 import LocationIcon from "../assets/Image/webp/LocationIcon.webp"
 import CelenderIcon from "../assets/Image/png/CelenderIcon.png"
 import PeopleIcon from "../assets/Image/webp/GroupIcon.png"
-import search from "../assets/Image/webp/Search.webp"
+import search from "../assets/Image/webp/search.webp"
 
 const Header = () => {
     return (
