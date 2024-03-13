@@ -16,9 +16,9 @@ const BestPlaces = () => {
     return (
         <div className='max-w-[1440px] mx-auto py-12 sm:py-16 md:py-[70px] mt-20 md:mt-24 xl:py-[120px] relative' id='Destinations'>
             {/*=================================== Camera Vector ====================*/}
-            <img className='w-[60px] sm:w-[70px] md:w-[100px] xl:w-[132px] top-5 xl:top-3 left-2 absolute' src={Camera} alt="Camera" />
+            <img className='w-[60px] sm:w-[70px] md:w-[100px] xl:w-[132px] top-5 xl:top-3 left-2 absolute left_vector' src={Camera} alt="Camera" />
             {/*=================================== Plane Vector ====================*/}
-            <img className='absolute top-[1%] md:top-0 right-0 xl:right-[4%] w-[130px] lg:w-[150px] xl:w-[177px]' src={PlaneVector} alt="PlaneVector" />
+            <img className='absolute top-[1%] md:top-0 right-0 xl:right-[4%] w-[130px] lg:w-[150px] xl:w-[177px] right_vector' src={PlaneVector} alt="PlaneVector" />
 
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
