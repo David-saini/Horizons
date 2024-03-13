@@ -4,10 +4,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import BenjaminRobert from "../assets/Image/webp/BenjaminRobert.webp"
 import filledStar from "../assets/Image/webp/FilledStar.webp"
 import UnfilledStar from "../assets/Image/webp/UnfilledStar.webp"
 import { SliderNextbtn, SliderPrevbtn } from './Common/Icons';
+import { TestimonialCards } from './CardContent';
 // Define the Explore functional component
 const Explore = () => {
     // Function to go to the next slide
@@ -78,99 +78,31 @@ const Explore = () => {
                         }}
                         pagination={{ clickable: true }}
                     >
-
-                        <SwiperSlide className="swiper-slide">
-                            <div className='pt-6 pb-12 sm:py-8 xl:pt-10 xl:pb-8'>
-                                <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white shadow-shadow1 card'>
-                                    <div className='flex flex-col'>
-                                        <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
-                                        <div className="mt-6 flex items-center gap-4">
-                                            <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
-                                            <div className="flex flex-col gap-2">
-                                                <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
-                                                <span className="flex items-center gap-1">
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={UnfilledStar} alt="UnfilledStar" />
-                                                </span>
+                        {/*============================================ SliderThroughMapping =============================================================*/}
+                        {TestimonialCards.map((data) => (
+                            <SwiperSlide key={data.id} className="swiper-slide">
+                                <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
+                                    <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white shadow-shadow1 card'>
+                                        <div className='flex flex-col'>
+                                            <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>{data.paragraph1}</p>
+                                            <div className="mt-6 flex items-center gap-4">
+                                                <img className="w-[48px]" src={data.img1} alt="BenjaminRobert" />
+                                                <div className="flex flex-col gap-2">
+                                                    <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">{data.Name}</p>
+                                                    <span className="flex items-center gap-1">
+                                                        <img className="w-4" src={data.img2} alt="filledStar" />
+                                                        <img className="w-4" src={data.img2} alt="filledStar" />
+                                                        <img className="w-4" src={data.img2} alt="filledStar" />
+                                                        <img className="w-4" src={data.img2} alt="filledStar" />
+                                                        <img className="w-4" src={data.img3} alt="UnfilledStar" />
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide className="swiper-slide" >
-                            <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
-                                <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white shadow-shadow1 card'>
-                                    <div className='flex flex-col'>
-                                        <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
-                                        <div className="mt-6 flex items-center gap-4">
-                                            <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
-                                            <div className="flex flex-col gap-2">
-                                                <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
-                                                <span className="flex items-center gap-1">
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={UnfilledStar} alt="UnfilledStar" />
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide className="swiper-slide" >
-                            <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
-                                <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white shadow-shadow1 card'>
-                                    <div className='flex flex-col'>
-                                        <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
-                                        <div className="mt-6 flex items-center gap-4">
-                                            <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
-                                            <div className="flex flex-col gap-2">
-                                                <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
-                                                <span className="flex items-center gap-1">
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={UnfilledStar} alt="UnfilledStar" />
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide className="swiper-slide" >
-                            <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
-                                <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white shadow-shadow1 card'>
-                                    <div className='flex flex-col'>
-                                        <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”</p>
-                                        <div className="mt-6 flex items-center gap-4">
-                                            <img className="w-[48px]" src={BenjaminRobert} alt="BenjaminRobert" />
-                                            <div className="flex flex-col gap-2">
-                                                <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">Benjamin Robert</p>
-                                                <span className="flex items-center gap-1">
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={filledStar} alt="filledStar" />
-                                                    <img className="w-4" src={UnfilledStar} alt="UnfilledStar" />
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
+                            </SwiperSlide>
+                        ))}
                     </Swiper>
                 </div>
             </div>

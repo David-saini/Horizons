@@ -7,8 +7,9 @@ import Hawaii from "../assets/Image/webp/Hawaii.webp"
 import StarImg from "../assets/Image/webp/FilledStar.webp"
 import UnfilledStar from '../assets/Image/webp/UnfilledStar.webp'
 import locationicon from "../assets/Image/webp/LocationIcon.webp"
+import BenjaminRobertImg from "../assets/Image/webp/BenjaminRobert.webp"
 
-//======================== best places cards
+//======================================================================== best places cards
 export const Card = [
     {
         id: 1,
@@ -67,7 +68,7 @@ export const Card = [
 
 ]
 
-//======================== oursevices cards
+//================================================================================================== oursevices cards
 export const sliderCard1 = [
     {
         id: 1,
@@ -92,5 +93,41 @@ export const sliderCard1 = [
         heading1: "Customized Itineraries",
         paragraph1: "Whether You're Dreaming Of A Romantic Getaway, A Family Adventure, Or A Solo Expedition, Our Expert Travel Planners .",
         text: "Learn More",
+    },
+]
+
+//==================================================================================== Tesimonial cards
+export const TestimonialCards = [
+    {
+        id: 1,
+        paragraph1: "“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”",
+        Name: "Benjamin Robert",
+        img1: BenjaminRobertImg,
+        img2: StarImg,
+        img3: UnfilledStar,
+    },
+    {
+        id: 2,
+        paragraph1: "“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”",
+        Name: "Benjamin Robert",
+        img1: BenjaminRobertImg,
+        img2: StarImg,
+        img3: UnfilledStar,
+    },
+    {
+        id: 3,
+        paragraph1: "“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”",
+        Name: "Benjamin Robert",
+        img1: BenjaminRobertImg,
+        img2: StarImg,
+        img3: UnfilledStar,
+    },
+    {
+        id: 4,
+        paragraph1: "“Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget fringilla nisl duis lectus. Tincidunt pretium odio at  viverra integer et at. Penatibus in elementum habitant pellentesque sit posuere.”",
+        Name: "Benjamin Robert",
+        img1: BenjaminRobertImg,
+        img2: StarImg,
+        img3: UnfilledStar,
     },
 ]
