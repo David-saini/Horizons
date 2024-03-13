@@ -42,7 +42,8 @@ const OurService = () => {
             <div className='max-w-[1440px] mx-auto relative'>
                 <button className="absolute top-[50%] left-[5%] z-[10] xl:block hidden" onClick={prevarrow}><SliderPrevbtn /></button>
                 <button className="absolute top-[50%] right-[5%] z-[10] xl:block hidden" onClick={nextarrow}><SliderNextbtn /></button>
-                <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-[-15%] md:top-[-30%] lg:top-[-40%] right-[5%] xl:right-[12%] absolute right_vector" src={RightVector} alt="RightVector" />
+                {/* <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-[-15%] md:top-[-30%] lg:top-[-40%] right-[5%] xl:right-[12%] absolute right_vector" src={RightVector} alt="RightVector" /> */}
+                {/* <img className="max-w-[80px] max-h-[80px] sm:max-w-[110px] sm:max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] top-[-15%] md:top-[-30%] lg:top-[-40%] right-[5%] xl:right-[12%] absolute right_vector" src={RightVector} alt="RightVector" /> */}
                 <div className='max-w-[1164px] mx-auto md:px-3 px-5'>
 
                     <Swiper
