@@ -1,6 +1,6 @@
 import React from 'react'
-import Camera from "../assets/Image/webp/CameraImg.webp"
-import PlaneVector from "../assets/Image/webp/PlaneVector.webp"
+import Camera from "../assets/image/webp/CameraImg.webp"
+import PlaneVector from "../assets/image/webp/PlaneVector.webp"
 import CommonButton from './CommonButton';
 import { Card } from './CardContent';
 const BestPlaces = () => {

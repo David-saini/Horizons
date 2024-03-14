@@ -1,8 +1,8 @@
 import React from 'react'
 import Helper from './Helper'
-import RightVector from "../assets/Image/webp/RightCurvedArrow.webp"
-import Camera from "../assets/Image/webp/CameraImg.webp"
-import right_vector from "../assets/Image/svg/RightVector.svg"
+import RightVector from "../assets/image/webp/RightCurvedArrow.webp"
+import Camera from "../assets/image/webp/CameraImg.webp"
+import right_vector from "../assets/image/svg/RightVector.svg"
 
 const items = [
     {

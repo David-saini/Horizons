@@ -1,13 +1,13 @@
-import MysorePlace from "../assets/Image/webp/MysorePlace.webp"
-import TajMahal from "../assets/Image/webp/TajMahal.webp"
-import JaisalmerFort from "../assets/Image/webp/JaisalmerFort.webp"
-import CamdenBeach from "../assets/Image/webp/CamdenBeach.webp"
-import TheSiq from "../assets/Image/webp/TheSiq.webp"
-import Hawaii from "../assets/Image/webp/Hawaii.webp"
-import StarImg from "../assets/Image/webp/FilledStar.webp"
-import UnfilledStar from '../assets/Image/webp/UnfilledStar.webp'
-import locationicon from "../assets/Image/webp/LocationIcon.webp"
-import BenjaminRobertImg from "../assets/Image/webp/BenjaminRobert.webp"
+import MysorePlace from "../assets/image/webp/MysorePlace.webp"
+import TajMahal from "../assets/image/webp/TajMahal.webp"
+import JaisalmerFort from "../assets/image/webp/JaisalmerFort.webp"
+import CamdenBeach from "../assets/image/webp/CamdenBeach.webp"
+import TheSiq from "../assets/image/webp/TheSiq.webp"
+import Hawaii from "../assets/image/webp/Hawaii.webp"
+import StarImg from "../assets/image/webp/FilledStar.webp"
+import UnfilledStar from '../assets/image/webp/UnfilledStar.webp'
+import locationicon from "../assets/image/webp/LocationIcon.webp"
+import BenjaminRobertImg from "../assets/image/webp/BenjaminRobert.webp"
 
 //======================================================================== best places cards
 export const Card = [

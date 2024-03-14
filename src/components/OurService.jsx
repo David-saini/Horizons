@@ -5,8 +5,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import RightVector from "../assets/Image/webp/RightCurvedArrow.webp"
-import right_vector from "../assets/Image/svg/RightVector.svg"
+import RightVector from "../assets/image/webp/RightCurvedArrow.webp"
+import right_vector from "../assets/image/svg/RightVector.svg"
 import { LearnMoreBtn, SliderNextbtn, SliderPrevbtn, TikMark } from './Common/Icons';
 import { sliderCard1 } from './CardContent';
 

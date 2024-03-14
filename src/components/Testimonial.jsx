@@ -4,8 +4,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import filledStar from "../assets/Image/webp/FilledStar.webp"
-import UnfilledStar from "../assets/Image/webp/UnfilledStar.webp"
 import { SliderNextbtn, SliderPrevbtn } from './Common/Icons';
 import { TestimonialCards } from './CardContent';
 // Define the Explore functional component

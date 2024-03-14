@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Call from "../assets/Image/webp/CalIIcon.webp"
-import Mail from "../assets/Image/webp/MailIcon.webp"
-import FilledLocation from "../assets/Image/webp/FilledLocation.webp"
+import Call from "../assets/image/webp/CalIIcon.webp"
+import Mail from "../assets/image/webp/MailIcon.webp"
+import FilledLocation from "../assets/image/webp/FilledLocation.webp"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -91,21 +91,23 @@ const GetInTouch = () => {
                     {/*================================= form_div ==================================================*/}
                     <div className='max-w-[700px] w-full lg:max-w-[461px]' data-aos="fade-left" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <form onSubmit={submitBtn}>
-                            <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[21px]'>
-                                <div className='relative'>
-                                    <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='First Name' type="text" onChange={(e) =>
-                                        setDataValue({ ...dataValue, firstname: e.target.value })} value={dataValue.firstname} />
-                                    <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.firstname == "" ? "Required field!" : ""} </span>
-                                </div>
+                            <div className='max-w-[700px] lg:max-w-[461px] w-full'>
+                                <div className='flex flex-col sm:flex-row items-center justify-start sm:justify-center gap-4 sm:gap-[21px]'>
+                                    <div className='relative'>
+                                        <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='First Name' type="text" onChange={(e) =>
+                                            setDataValue({ ...dataValue, firstname: e.target.value })} value={dataValue.firstname} />
+                                        <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.firstname == "" ? "Required field!" : ""} </span>
+                                    </div>
 
-                                <div className='relative'>
-                                    <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Last Name' type="text" onChange={(e) =>
-                                        setDataValue({ ...dataValue, lastname: e.target.value })} value={dataValue.lastname} />
-                                    <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.lastname == "" ? "Required field!" : ""}</span>
+                                    <div className='relative'>
+                                        <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Last Name' type="text" onChange={(e) =>
+                                            setDataValue({ ...dataValue, lastname: e.target.value })} value={dataValue.lastname} />
+                                        <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.lastname == "" ? "Required field!" : ""}</span>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-[21px] mt-4'>
+                            <div className='flex flex-col sm:flex-row items-center justify-start sm:justify-center gap-4 sm:gap-[21px] mt-4'>
                                 <div className='relative'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Email' type="Email" onChange={(e) =>
                                         setDataValue({ ...dataValue, email: e.target.value })} value={dataValue.email} />
@@ -118,7 +120,7 @@ const GetInTouch = () => {
                                 </div>
                             </div>
 
-                            <div className='flex items-center justify-center gap-[21px] mt-4'>
+                            <div className='flex items-center justify-start lg:justify-center gap-[21px] mt-4'>
                                 <textarea onChange={(e) => setDataValue({ ...dataValue, message: e.target.value })} value={dataValue.message} placeholder='Write your message...' className='font-light text-base font-kanit w-full min-h-[140px] leading-[150%] rounded-[16px] p-4 shadow-inputShadow resize-none outline-none' type='text' ></textarea>
                                 <span className="inline-block absolute left-4 bottom-[18%] text-red-600 text-[10px]"> {error && dataValue.message == "" ? "Required field!" : ""} </span>
                             </div>

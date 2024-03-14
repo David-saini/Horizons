@@ -1,5 +1,5 @@
 import React from 'react';
-import topUp from '../../assets/Image/png/BackToTopArrow.png';
+import topUp from '../../assets/image/png/BackToTopArrow.png';
 import { useState } from 'react';
 
 // BackToTop component definition

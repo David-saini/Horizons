@@ -30,7 +30,7 @@ module.exports = {
         inputShadow: "4px 4px 16px 0px #00000029",
       },
       backgroundImage: {
-        headerbg: "url(/src/assets/Image/webp/HeaderBg.webp)",
+        headerbg: "url(/src/assets/image/webp/HeaderBg.webp)",
       },
 
     },

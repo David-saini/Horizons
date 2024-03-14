@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import HeaderLogo from "../assets/Image/webp/Logo.webp"
-import menu from "../assets/Image/png/Menu.png"
-import CrossIcon from "../assets/Image/png/CrossIcon.png"
+import HeaderLogo from "../assets/image/webp/Logo.webp"
+import menu from "../assets/image/png/Menu.png"
+import CrossIcon from "../assets/image/png/CrossIcon.png"
 // Define the Nav functional component
 const Nav = () => {
     const [Menu, setMenu] = useState(false);

@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
-import poster from "../assets/Image/webp/ExploreImg.webp";
-import PlaneVector from "../assets/Image/webp/PlaneVector.webp"
+import poster from "../assets/image/webp/ExploreImg.webp";
+import PlaneVector from "../assets/image/webp/PlaneVector.webp"
 import Video1 from "../assets/video/video.mp4";
-import VideoPlayerbtn from "../assets/Image/webp/VideoPlayerBtn.webp"
-import LeftVector from "../assets/Image/webp/LeftCourvedarrow.webp"
-import Left_Vector from "../assets/Image/svg/LeftVector.svg"
+import VideoPlayerbtn from "../assets/image/webp/VideoPlayerBtn.webp"
+import LeftVector from "../assets/image/webp/LeftCourvedarrow.webp"
+import Left_Vector from "../assets/image/svg/LeftVector.svg"
 
 const BeautifulWorld = () => {
     // State to manage video play/pause

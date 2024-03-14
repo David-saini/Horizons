@@ -1,11 +1,11 @@
 import React from 'react'
-import BagVector from "../assets/Image/webp/BagVector.webp"
-import ShirakawagoVillage from "../assets/Image/webp/ShirakawagoVillage.webp"
-import EiffelTower from "../assets/Image/webp/EiffelTower.webp"
-import TajMahalImg from "../assets/Image/webp/TajMahalImg.webp"
-import SnowCloudySky from "../assets/Image/webp/SnowCloudySky.webp"
-import VangViengImg from "../assets/Image/webp/VangViengImg.webp"
-import ThilandImg from "../assets/Image/webp/ThilandImg.webp"
+import BagVector from "../assets/image/webp/BagVector.webp"
+import ShirakawagoVillage from "../assets/image/webp/ShirakawagoVillage.webp"
+import EiffelTower from "../assets/image/webp/EiffelTower.webp"
+import TajMahalImg from "../assets/image/webp/TajMahalImg.webp"
+import SnowCloudySky from "../assets/image/webp/SnowCloudySky.webp"
+import VangViengImg from "../assets/image/webp/VangViengImg.webp"
+import ThilandImg from "../assets/image/webp/ThilandImg.webp"
 import CommonButton from './CommonButton';
 
 const OurGallery = () => {
