@@ -6,7 +6,7 @@ import TheSiq from "../assets/image/webp/TheSiq.webp"
 import Hawaii from "../assets/image/webp/Hawaii.webp"
 import StarImg from "../assets/image/webp/FilledStar.webp"
 import UnfilledStar from '../assets/image/webp/UnfilledStar.webp'
-import locationicon from "../assets/image/webp/LocationIcon.webp"
+import Locationicon from "../assets/image/webp/LocationIcon.webp"
 import BenjaminRobertImg from "../assets/image/webp/BenjaminRobert.webp"
 
 //======================================================================== best places cards
@@ -18,7 +18,7 @@ export const PlacesCards = [
         Paragraph: "Karnataka, India",
         Filledstar: StarImg,
         UnFilledstar: UnfilledStar,
-        LocationIcon: locationicon,
+        LocationIcon: Locationicon,
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ export const PlacesCards = [
         Paragraph: "Agra, India",
         Filledstar: StarImg,
         UnFilledstar: UnfilledStar,
-        LocationIcon: locationicon,
+        LocationIcon: Locationicon,
     },
     {
         id: 3,
@@ -36,7 +36,7 @@ export const PlacesCards = [
         Paragraph: "Rajasthan, India",
         Filledstar: StarImg,
         UnFilledstar: UnfilledStar,
-        LocationIcon: locationicon,
+        LocationIcon: Locationicon,
     },
     {
         id: 4,
@@ -45,7 +45,7 @@ export const PlacesCards = [
         Paragraph: "London, England",
         Filledstar: StarImg,
         UnFilledstar: UnfilledStar,
-        LocationIcon: locationicon,
+        LocationIcon: Locationicon,
     },
     {
         id: 5,
@@ -54,7 +54,7 @@ export const PlacesCards = [
         Paragraph: "Petra, Jordan",
         Filledstar: StarImg,
         UnFilledstar: UnfilledStar,
-        LocationIcon: locationicon,
+        LocationIcon: Locationicon,
     },
     {
         id: 6,
@@ -63,7 +63,7 @@ export const PlacesCards = [
         Paragraph: "New York City, USA",
         Filledstar: StarImg,
         UnFilledstar: UnfilledStar,
-        LocationIcon: locationicon,
+        LocationIcon: Locationicon,
     },
 
 ]

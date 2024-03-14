@@ -3,8 +3,8 @@ import poster from "../assets/image/webp/ExploreImg.webp";
 import PlaneVector from "../assets/image/webp/PlaneVector.webp"
 import Video1 from "../assets/video/video.mp4";
 import VideoPlayerbtn from "../assets/image/webp/VideoPlayerBtn.webp"
-import LeftVector from "../assets/image/webp/LeftCourvedarrow.webp"
-import Left_Vector from "../assets/image/svg/LeftVector.svg"
+// import LeftVector from "../assets/image/webp/LeftCourvedarrow.webp"
+import LeftVector from "../assets/image/svg/LeftVector.svg"
 
 const BeautifulWorld = () => {
     // State to manage video play/pause
@@ -36,7 +36,7 @@ const BeautifulWorld = () => {
             <img className='absolute top-[-40%] md:top-[-20%] right-0 xl:right-[3%] w-[110px] md:w-[130px] lg:w-[150px] xl:w-[177px] right_vector' src={PlaneVector} alt="PlaneVector" />
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto relative'>
                 {/* <img className='absolute bottom-[-25%] lg:bottom-[-11%] left-2 max-w-[110px] max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] md:block hidden left_vector' src={LeftVector} alt="LeftVector" /> */}
-                <img className='absolute bottom-[-25%] lg:bottom-[-11%] left-2 max-w-[110px] max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] md:block hidden' src={Left_Vector} alt="LeftVector" />
+                <img className='absolute bottom-[-25%] lg:bottom-[-11%] left-2 max-w-[110px] max-h-[115px] xl:max-w-[131px] xl:max-h-[135px] md:block hidden' src={LeftVector} alt="LeftVector" />
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark mb-6 md:mb-8 xl:mb-10'>Explore <span className='text-lightgreen'>Beautiful </span>World</h2>
                 {/*================== video-div =====================*/}
                 <div className='border-white rounded-[21px] border-[16px] shadow-videocard max-w-[896px] mx-auto relative' data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300" data-aos-easing="linear" >

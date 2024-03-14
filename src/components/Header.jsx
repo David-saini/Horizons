@@ -4,7 +4,7 @@ import LocationIcon from "../assets/image/webp/LocationIcon.webp"
 import Headervector from "../assets/image/svg/HeaderVector.svg"
 import CelenderIcon from "../assets/image/png/CelenderIcon.png"
 import PeopleIcon from "../assets/image/webp/GroupIcon.png"
-import search from "../assets/image/webp/Search.webp"
+import Search from "../assets/image/webp/Search.webp"
 
 const Header = () => {
     return (
@@ -78,7 +78,7 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <a href="#search"><img className='h-10 w-10 md:w-[52px] md:h-[52px] mt-5 sm:mt-0' src={search} alt="search" /></a>
+                            <a href="#search"><img className='h-10 w-10 md:w-[52px] md:h-[52px] mt-5 sm:mt-0' src={Search} alt="Search" /></a>
 
                         </div>
                         {/*==================================== selecter_card end========================================*/}

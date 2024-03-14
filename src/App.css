@@ -5,19 +5,19 @@ html {
 }
 
 /*=============================== icon-fill ================================*/
-.footer_icons svg rect {
+.footer_icons rect {
     fill: #359F35;
 }
 
-.footer_icons svg path {
+.footer_icons path {
     fill: white;
 }
 
-.footer_icons svg:hover path {
+.footer_icons:hover path {
     fill: #359F35;
 }
 
-.footer_icons svg rect:hover {
+.footer_icons rect:hover {
     fill: #fff;
 }
 

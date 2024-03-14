@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import HeaderLogo from "../assets/image/webp/Logo.webp"
-import menu from "../assets/image/png/Menu.png"
+import MenuIcon from "../assets/image/png/Menu.png"
 import CrossIcon from "../assets/image/png/CrossIcon.png"
 // Define the Nav functional component
 const Nav = () => {
@@ -81,7 +81,7 @@ const Nav = () => {
                     </div>
 
                     <div className='lg:hidden block z-1'>
-                        <Link onClick={() => setMenu(true)}><img className='w-[25px]' src={menu} alt="menu" /></Link>
+                        <Link onClick={() => setMenu(true)}><img className='w-[25px]' src={MenuIcon} alt="MenuIcon" /></Link>
                     </div>
 
                 </div>

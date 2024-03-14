@@ -1,8 +1,8 @@
 import React from 'react';
-import Logo from "../assets/image/webp/Logo.webp"; // Importing the logo image
-import FooterLine from "../assets/image/webp/Footerline.webp"; // Importing the footer line image
-import { Link } from 'react-router-dom'; // Importing Link from react-router-dom
-import { FacebookIcon, InstagramIcon, LinkedInIcon, TwitterIcon, YoutubeIcon } from './Common/Icons'; // Importing social media icons
+import Logo from "../assets/image/webp/Logo.webp";
+import FooterLine from "../assets/image/webp/Footerline.webp";
+import { Link } from 'react-router-dom';
+import { FacebookIcon, InstagramIcon, LinkedInIcon, TwitterIcon, YoutubeIcon } from './Common/Icons';
 
 // Footer component definition
 const Footer = () => {
