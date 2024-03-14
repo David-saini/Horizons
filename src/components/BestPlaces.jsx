@@ -15,6 +15,7 @@ const BestPlaces = () => {
 
                 <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-6 md:mt-8 xl:mt-10'>
                     {Card.map((obj, i) => {
+
                         return (
                             <div key={i} className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                 <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
