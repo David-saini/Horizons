@@ -1,28 +1,19 @@
 // Twitter icon component
 export const TwitterIcon = () => {
     return (
-        <div className="footer_icons">
-            {/* Twitter icon SVG */}
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="32" rx="16" fill="#359F35" />
-                <path className="duration-300" d="M12.9307 7.89893H7.55859L13.8977 16.8211L7.90394 24.1005H9.93766L14.8401 18.1472L19.0702 24.1005H24.4423L17.8362 14.8024L23.5214 7.89893H21.4877L16.8938 13.4771L12.9307 7.89893ZM19.8377 22.4803L10.6284 9.51908H12.1632L21.3725 22.4803H19.8377Z" fill="#FFFDFE" />
-            </svg>
-
-        </div>
-
+        <svg className="footer_icons" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="16" fill="#359F35" />
+            <path className="duration-300" d="M12.9307 7.89893H7.55859L13.8977 16.8211L7.90394 24.1005H9.93766L14.8401 18.1472L19.0702 24.1005H24.4423L17.8362 14.8024L23.5214 7.89893H21.4877L16.8938 13.4771L12.9307 7.89893ZM19.8377 22.4803L10.6284 9.51908H12.1632L21.3725 22.4803H19.8377Z" fill="#FFFDFE" />
+        </svg>
     );
 };
 // Twitter icon component
 export const FacebookIcon = () => {
     return (
-        <div className="footer_icons">
-            {/* Facebook icon SVG */}
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="32" rx="16" fill="none" />
-                <path className="duration-300" d="M13.7088 25.4555V16.5828H11.3555V13.3882H13.7088V10.6596C13.7088 8.51543 15.099 6.54639 18.3021 6.54639C19.599 6.54639 20.5581 6.67034 20.5581 6.67034L20.4825 9.65355C20.4825 9.65355 19.5045 9.64406 18.4372 9.64406C17.2821 9.64406 17.097 10.1747 17.097 11.0555V13.3882H20.5743L20.423 16.5828H17.097V25.4555H13.7088Z" fill="#FFFDFE" />
-            </svg>
-        </div>
-
+        <svg className="footer_icons" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="16" fill="none" />
+            <path className="duration-300" d="M13.7088 25.4555V16.5828H11.3555V13.3882H13.7088V10.6596C13.7088 8.51543 15.099 6.54639 18.3021 6.54639C19.599 6.54639 20.5581 6.67034 20.5581 6.67034L20.4825 9.65355C20.4825 9.65355 19.5045 9.64406 18.4372 9.64406C17.2821 9.64406 17.097 10.1747 17.097 11.0555V13.3882H20.5743L20.423 16.5828H17.097V25.4555H13.7088Z" fill="#FFFDFE" />
+        </svg>
     );
 };
 // Instagram icon component
@@ -37,22 +28,17 @@ export const InstagramIcon = () => {
 // LinkedIn icon component
 export const LinkedInIcon = () => {
     return (
-        <div className="footer_icons">
-            {/* LinkedIn icon SVG */}
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="32" height="32" rx="16" fill="#359F35" />
-                <path className="duration-300" d="M10.8408 10.6703C11.6438 10.6703 12.2948 10.0193 12.2948 9.21626C12.2948 8.41321 11.6438 7.76221 10.8408 7.76221C10.0377 7.76221 9.38672 8.41321 9.38672 9.21626C9.38672 10.0193 10.0377 10.6703 10.8408 10.6703Z" fill="#FFFDFE" />
-                <path className="duration-300" d="M12.2948 12.8511H9.38672V21.9389H12.2948V12.8511Z" fill="#FFFDFE" />
-                <path className="duration-300" d="M15.2031 16.3044V21.9389H17.7477V16.8497C17.7477 15.9409 18.293 15.2139 19.2018 15.2139C20.1105 15.2139 20.6558 16.1227 20.6558 16.8497V21.9389H23.2004V16.3044C23.2004 15.2139 21.9281 12.8511 19.2018 12.8511C16.4754 12.8511 15.2031 15.2139 15.2031 16.3044Z" fill="#FFFDFE" />
-            </svg>
-        </div>
-
+        <svg className="footer_icons" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="16" fill="#359F35" />
+            <path className="duration-300" d="M10.8408 10.6703C11.6438 10.6703 12.2948 10.0193 12.2948 9.21626C12.2948 8.41321 11.6438 7.76221 10.8408 7.76221C10.0377 7.76221 9.38672 8.41321 9.38672 9.21626C9.38672 10.0193 10.0377 10.6703 10.8408 10.6703Z" fill="#FFFDFE" />
+            <path className="duration-300" d="M12.2948 12.8511H9.38672V21.9389H12.2948V12.8511Z" fill="#FFFDFE" />
+            <path className="duration-300" d="M15.2031 16.3044V21.9389H17.7477V16.8497C17.7477 15.9409 18.293 15.2139 19.2018 15.2139C20.1105 15.2139 20.6558 16.1227 20.6558 16.8497V21.9389H23.2004V16.3044C23.2004 15.2139 21.9281 12.8511 19.2018 12.8511C16.4754 12.8511 15.2031 15.2139 15.2031 16.3044Z" fill="#FFFDFE" />
+        </svg>
     );
 };
 // Youtube icon component
 export const YoutubeIcon = () => {
     return (
-
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_104_1038)">
                 <rect width="32" height="32" rx="16" fill="#FFFDFE" />
@@ -65,28 +51,23 @@ export const YoutubeIcon = () => {
                 </clipPath>
             </defs>
         </svg>
-
     );
 };
 // TikMark icon component
 export const TikMark = () => {
     return (
-        <div className="tikkmark">
-            <svg width="53" height="52" viewBox="0 0 53 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="0.5" width="52" height="52" rx="26" fill="#35A035" />
-                <path d="M14.5 26.2963L22.7963 34L37 17.5" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </div>
+        <svg className="tikkmark" width="53" height="52" viewBox="0 0 53 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" width="52" height="52" rx="26" fill="#35A035" />
+            <path d="M14.5 26.2963L22.7963 34L37 17.5" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
     );
 };
 // TikMark icon component
 export const LearnMoreBtn = () => {
     return (
-        <div className="link">
-            <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.5 5.75C1.08579 5.75 0.75 6.08579 0.75 6.5C0.75 6.91421 1.08579 7.25 1.5 7.25V5.75ZM15.0303 7.03033C15.3232 6.73744 15.3232 6.26256 15.0303 5.96967L10.2574 1.1967C9.96447 0.903806 9.48959 0.903806 9.1967 1.1967C8.90381 1.48959 8.90381 1.96447 9.1967 2.25736L13.4393 6.5L9.1967 10.7426C8.90381 11.0355 8.90381 11.5104 9.1967 11.8033C9.48959 12.0962 9.96447 12.0962 10.2574 11.8033L15.0303 7.03033ZM1.5 7.25H14.5V5.75H1.5V7.25Z" fill="#35A035" />
-            </svg>
-        </div>
+        <svg className="link" width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.5 5.75C1.08579 5.75 0.75 6.08579 0.75 6.5C0.75 6.91421 1.08579 7.25 1.5 7.25V5.75ZM15.0303 7.03033C15.3232 6.73744 15.3232 6.26256 15.0303 5.96967L10.2574 1.1967C9.96447 0.903806 9.48959 0.903806 9.1967 1.1967C8.90381 1.48959 8.90381 1.96447 9.1967 2.25736L13.4393 6.5L9.1967 10.7426C8.90381 11.0355 8.90381 11.5104 9.1967 11.8033C9.48959 12.0962 9.96447 12.0962 10.2574 11.8033L15.0303 7.03033ZM1.5 7.25H14.5V5.75H1.5V7.25Z" fill="#35A035" />
+        </svg>
     );
 };
 // SliderNextbtn icon component

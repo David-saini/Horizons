@@ -77,22 +77,22 @@ const Explore = () => {
                         pagination={{ clickable: true }}
                     >
                         {/*============================================ SliderThroughMapping =============================================================*/}
-                        {TestimonialCards.map((data) => (
-                            <SwiperSlide key={data.id} className="swiper-slide">
+                        {TestimonialCards.map((object, index) => (
+                            <SwiperSlide key={index} className="swiper-slide">
                                 <div className='pt-5 pb-12 sm:py-10 xl:pt-10 xl:pb-8'>
                                     <div className='max-w-[300px] md:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-6 lg:p-8 bg-white shadow-shadow1 card'>
                                         <div className='flex flex-col'>
-                                            <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>{data.paragraph1}</p>
+                                            <p className='text-black opacity-60 font-light text-base leading-[150%] font-kanit card'>{object.Paragraph}</p>
                                             <div className="mt-6 flex items-center gap-4">
-                                                <img className="w-[48px]" src={data.img1} alt="BenjaminRobert" />
+                                                <img className="w-[48px]" src={object.BenjaminImg} alt="BenjaminRobert" />
                                                 <div className="flex flex-col gap-2">
-                                                    <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">{data.Name}</p>
+                                                    <p className="text-dark opacity-60 font-jost font-normal text-base leading-[150%] card">{object.Name}</p>
                                                     <span className="flex items-center gap-1">
-                                                        <img className="w-4" src={data.img2} alt="filledStar" />
-                                                        <img className="w-4" src={data.img2} alt="filledStar" />
-                                                        <img className="w-4" src={data.img2} alt="filledStar" />
-                                                        <img className="w-4" src={data.img2} alt="filledStar" />
-                                                        <img className="w-4" src={data.img3} alt="UnfilledStar" />
+                                                        <img className="w-4" src={object.Filledstar} alt="filledStar" />
+                                                        <img className="w-4" src={object.Filledstar} alt="filledStar" />
+                                                        <img className="w-4" src={object.Filledstar} alt="filledStar" />
+                                                        <img className="w-4" src={object.Filledstar} alt="filledStar" />
+                                                        <img className="w-4" src={object.UnFilledstar} alt="UnfilledStar" />
                                                     </span>
                                                 </div>
                                             </div>

@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import RightVector from "../assets/image/webp/RightCurvedArrow.webp"
 import right_vector from "../assets/image/svg/RightVector.svg"
 import { LearnMoreBtn, SliderNextbtn, SliderPrevbtn, TikMark } from './Common/Icons';
-import { sliderCard1 } from './CardContent';
+import { ServiceCards } from './CardContent';
 
 // Define the OurService functional component
 const OurService = () => {
@@ -87,15 +87,15 @@ const OurService = () => {
 
                         pagination={{ clickable: true }}>
 
-                        {sliderCard1.map((data) => (
-                            <SwiperSlide key={data.id} className="swiper-slide">
+                        {ServiceCards.map((obj, i) => (
+                            <SwiperSlide key={i} className="swiper-slide">
                                 <div className='pt-5 pb-12 sm:pt-10 sm:pb-8'>
                                     <div className='max-w-[300px] sm:max-w-[330px] lg:max-w-[364px] mx-auto cursor-pointer rounded-[16px] p-4 sm:p-6 lg:pt-8 lg:px-11 lg:pb-11 bg-white border-white border-solid border shadow-shadow1 card'>
                                         <div className='flex flex-col items-center justify-center'>
                                             <TikMark />
-                                            <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>{data.heading1}</h5>
-                                            <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>{data.paragraph1}</p>
-                                            <Link className='mt-4 sm:6 md:mt-8 flex items-center gap-1 font-kanit font-medium text-base leading-[150%] text-lightgreen card'>{data.text}<LearnMoreBtn /></Link>
+                                            <h5 className='text-black font-semibold text-lg md:text-xl leading-[150%] font-kanit mt-4 card'>{obj.Heading}</h5>
+                                            <p className='text-black opacity-60 font-light text-[14px] md:text-base max-w-[273px] text-center leading-[150%] font-kanit mt-2 card'>{obj.Paragraph}</p>
+                                            <Link className='mt-4 sm:6 md:mt-8 flex items-center gap-1 font-kanit font-medium text-base leading-[150%] text-lightgreen card'>{obj.LinkText}<LearnMoreBtn /></Link>
                                         </div>
                                     </div>
                                 </div>
