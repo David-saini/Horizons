@@ -93,13 +93,13 @@ const GetInTouch = () => {
                         <form onSubmit={submitBtn}>
                             <div className='max-w-[700px] lg:max-w-[461px] w-full'>
                                 <div className='flex flex-col sm:flex-row items-center justify-start sm:justify-center gap-4 sm:gap-[21px]'>
-                                    <div className='relative'>
+                                    <div className='relative w-full'>
                                         <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='First Name' type="text" onChange={(e) =>
                                             setDataValue({ ...dataValue, firstname: e.target.value })} value={dataValue.firstname} />
                                         <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.firstname == "" ? "Required field!" : ""} </span>
                                     </div>
 
-                                    <div className='relative'>
+                                    <div className='relative w-full'>
                                         <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Last Name' type="text" onChange={(e) =>
                                             setDataValue({ ...dataValue, lastname: e.target.value })} value={dataValue.lastname} />
                                         <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.lastname == "" ? "Required field!" : ""}</span>
@@ -108,12 +108,12 @@ const GetInTouch = () => {
                             </div>
 
                             <div className='flex flex-col sm:flex-row items-center justify-start sm:justify-center gap-4 sm:gap-[21px] mt-4'>
-                                <div className='relative'>
+                                <div className='relative w-full'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Email' type="Email" onChange={(e) =>
                                         setDataValue({ ...dataValue, email: e.target.value })} value={dataValue.email} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.email == "" ? "Required field!" : ""} </span>
                                 </div>
-                                <div className='relative'>
+                                <div className='relative w-full'>
                                     <input className='bg-white shadow-inputShadow p-4 rounded-[16px] font-kanit w-full outline-none text-base leading-[150%] font-light' placeholder='Mobile no.' type="number" onChange={(e) =>
                                         setDataValue({ ...dataValue, phone: e.target.value })} value={dataValue.phone} />
                                     <span className="inline-block absolute -bottom-4 left-4 text-red-600 text-[10px]"> {error && dataValue.phone == "" ? "Required field!" : ""} </span>
