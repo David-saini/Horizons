@@ -6,37 +6,36 @@ import { Card } from './CardContent';
 const BestPlaces = () => {
     return (
         <div className='max-w-[1440px] mx-auto py-12 sm:py-16 md:py-[70px] mt-20 md:mt-24 xl:py-[120px] relative' id='Destinations'>
-            {/*=================================== Camera Vector ====================*/}
+
             <img className='w-[60px] sm:w-[70px] md:w-[100px] xl:w-[132px] top-5 xl:top-3 left-2 absolute left_vector' src={Camera} alt="Camera" />
-            {/*=================================== Plane Vector ====================*/}
             <img className='absolute top-[1%] md:top-0 right-0 xl:right-[4%] w-[130px] lg:w-[150px] xl:w-[177px] right_vector' src={PlaneVector} alt="PlaneVector" />
 
             <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
                 <h2 className='text-[30px] md:text-[40px] lg:text-xxl font-kanit font-bold leading-[120%] text-center text-dark'>The Best Place for <span className='text-lightgreen'>Vacation</span></h2>
 
                 <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-6 md:mt-8 xl:mt-10'>
-                    {Card.map((data) => {
+                    {Card.map((obj, i) => {
                         return (
-                            <div key={data.id} className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                            <div key={i} className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                 <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
-                                    <img className='w-full max-w-[348px] duration-300 img' src={data.img1} alt="MysorePlace" />
+                                    <img className='w-full max-w-[348px] duration-300 img' src={obj.img1} alt="MysorePlace" />
                                 </div>
                                 <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                     <div className='flex flex-col gap-2'>
-                                        <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>{data.heading1}</h5>
+                                        <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>{obj.heading1}</h5>
                                         <div className='flex items-center lg:gap-2 gap-1'>
-                                            <img className='w-5 lg:w-6' src={data.img4} alt="LocationIcon" />
-                                            <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>{data.paragraph1}</p>
+                                            <img className='w-5 lg:w-6' src={obj.img4} alt="LocationIcon" />
+                                            <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>{obj.paragraph1}</p>
                                         </div>
                                     </div>
                                     <div className='flex flex-col gap-2'>
                                         <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490<span className='text-base font-light text-gray1'>/3days</span></p>
                                         <div className='flex items-center gap-0.5'>
-                                            <img className='w-4 lg:w-5' src={data.img2} alt="FilledStar" />
-                                            <img className='w-4 lg:w-5' src={data.img2} alt="FilledStar" />
-                                            <img className='w-4 lg:w-5' src={data.img2} alt="FilledStar" />
-                                            <img className='w-4 lg:w-5' src={data.img2} alt="FilledStar" />
-                                            <img className='w-4 lg:w-5' src={data.img3} alt="FilledStar" />
+                                            <img className='w-4 lg:w-5' src={obj.img2} alt="FilledStar" />
+                                            <img className='w-4 lg:w-5' src={obj.img2} alt="FilledStar" />
+                                            <img className='w-4 lg:w-5' src={obj.img2} alt="FilledStar" />
+                                            <img className='w-4 lg:w-5' src={obj.img2} alt="FilledStar" />
+                                            <img className='w-4 lg:w-5' src={obj.img3} alt="FilledStar" />
                                         </div>
                                     </div>
                                 </div>
@@ -51,28 +50,28 @@ const BestPlaces = () => {
                     content={
                         <>
                             <div className='flex items-center justify-center gap-4 sm:gap-3 xl:gap-6 flex-wrap mt-6'>
-                                {Card.map((data) => {
+                                {Card.map((obj, i) => {
                                     return (
-                                        <div key={data.id} className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
+                                        <div key={i} className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                             <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
-                                                <img className='w-full max-w-[348px] duration-300 img' src={data.img1} alt="MysorePlace" />
+                                                <img className='w-full max-w-[348px] duration-300 img' src={obj.img1} alt="MysorePlace" />
                                             </div>
                                             <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                                 <div className='flex flex-col gap-2'>
-                                                    <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>{data.heading1}</h5>
+                                                    <h5 className='text-dark font-kanit font-bold text-lg lg:text-xl leading-[120%]'>{obj.heading1}</h5>
                                                     <div className='flex items-center lg:gap-2 gap-1'>
-                                                        <img className='w-5 lg:w-6' src={data.img4} alt="LocationIcon" />
-                                                        <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>{data.paragraph1}</p>
+                                                        <img className='w-5 lg:w-6' src={obj.img4} alt="LocationIcon" />
+                                                        <p className='font-kanit font-light text-[14px] lg:text-base leading-[100%] text-gray1'>{obj.paragraph1}</p>
                                                     </div>
                                                 </div>
                                                 <div className='flex flex-col gap-2'>
                                                     <p className='font-kanit font-bold text-lg lg:text-xl leading-[120%] text-lightgreen'>$490<span className='text-base font-light text-gray1'>/3days</span></p>
                                                     <div className='flex items-center gap-0.5'>
-                                                        <img className='w-4 lg:w-5' src={data.img2} alt="FilledStar" />
-                                                        <img className='w-4 lg:w-5' src={data.img2} alt="FilledStar" />
-                                                        <img className='w-4 lg:w-5' src={data.img2} alt="FilledStar" />
-                                                        <img className='w-4 lg:w-5' src={data.img2} alt="FilledStar" />
-                                                        <img className='w-4 lg:w-5' src={data.img3} alt="FilledStar" />
+                                                        <img className='w-4 lg:w-5' src={obj.img2} alt="FilledStar" />
+                                                        <img className='w-4 lg:w-5' src={obj.img2} alt="FilledStar" />
+                                                        <img className='w-4 lg:w-5' src={obj.img2} alt="FilledStar" />
+                                                        <img className='w-4 lg:w-5' src={obj.img2} alt="FilledStar" />
+                                                        <img className='w-4 lg:w-5' src={obj.img3} alt="FilledStar" />
                                                     </div>
                                                 </div>
                                             </div>
