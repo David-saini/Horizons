@@ -1,53 +1,16 @@
-import React from 'react'
-import FaqItems from './FaqItems'
+import React, { useState } from 'react'
 import RightCurvedVector from "../assets/image/webp/RightCurvedArrow.webp"
 import Camera from "../assets/image/webp/CameraVector.webp"
-
-const FaqContent = [
-    {
-        id: "1",
-        title: 'How do I book a trip with your agency?',
-        content: 'Booking with us is easy! You can either give us a call, send us an email, or visit our website to fill out a booking inquiry form.',
-    },
-    {
-        id: "2",
-        title: 'What destinations do you offer?',
-        content: 'Booking with us is easy! You can either give us a call, send us an email, or visit our website to fill out a booking inquiry form.',
-    },
-    {
-        id: "3",
-        title: 'Do you offer group travel packages?',
-        content: 'Booking with us is easy! You can either give us a call, send us an email, or visit our website to fill out a booking inquiry form.',
-    },
-    {
-        id: "4",
-        title: 'What types of accommodations do you offer?',
-        content: 'Booking with us is easy! You can either give us a call, send us an email, or visit our website to fill out a booking inquiry form.',
-    },
-    {
-        id: "5",
-        title: 'Do you provide travel insurance?',
-        content: 'Booking with us is easy! You can either give us a call, send us an email, or visit our website to fill out a booking inquiry form.',
-    },
-    {
-        id: "6",
-        title: 'What if I need assistance during my trip?',
-        content: 'Booking with us is easy! You can either give us a call, send us an email, or visit our website to fill out a booking inquiry form.',
-    },
-    {
-        id: "7",
-        title: 'Can I make changes to my itinerary after its been booked?',
-        content: 'Booking with us is easy! You can either give us a call, send us an email, or visit our website to fill out a booking inquiry form.',
-    },
-    {
-        id: "8",
-        title: 'How do I make payments for my trip?',
-        content: 'Booking with us is easy! You can either give us a call, send us an email, or visit our website to fill out a booking inquiry form.',
-    },
-];
-
+import { FaqContent } from './Common/Helper';
 
 const Faqs = () => {
+
+    const [expandedIndex, setExpandedIndex] = useState(0);
+
+    const toggleAccordion = (index) => {
+        setExpandedIndex(expandedIndex === index ? null : index);
+    };
+
     return (
         <div className='max-w-[1440px] mx-auto xl:pb-6 relative' id='FAQ'>
             <img className='w-[50px] sm:w-[70px] md:w-[100px] xl:w-[132px] absolute bottom-[-3.5%] md:bottom-[-10%] lg:bottom-[2%] lg:left-2 xl:left-[38px] left_vector' src={Camera} alt="Camera" />
@@ -57,13 +20,35 @@ const Faqs = () => {
 
                 <div className='flex items-center justify-center flex-wrap z-10 relative'>
                     <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear" >
-                        <FaqItems items={FaqContent} />
+                        {/*================================== mapping in faqs ==========================================*/}
+                        {FaqContent.map((faqitem, index) => (
+                            <div key={index} className="pb-4 lg:w-[754px]">
+                                <div className={`bg-white rounded-[10px] ps-5 pe-6 input_card shadow-inputShadow ${expandedIndex === index ? 'active' : ''}`}>
+                                    <h2>
+                                        <button
+                                            type="button"
+                                            className={`flex items-center justify-between w-full text-left text-lg md:text-xl leading-[140%] pt-[16px] !font-light text-dark font-kanit ${expandedIndex ? "pb-[18px]" : "pb-[18px]"} ${expandedIndex === index ? 'text-color' : ''}`}
+                                            onClick={() => toggleAccordion(index)} aria-expanded={expandedIndex === index} aria-controls={`faqs-text-${index}`}>
+                                            <span className={`pe-7 ${expandedIndex === index ? 'text-color1' : ''}`}>{faqitem.title}</span>
+
+                                            <svg className={`transform origin-center transition duration-200 ease-out ${expandedIndex === index ? 'rotate-180 svg-color' : 'svg-color'}`} width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 1L7.5 8L14 1" stroke="#000702" strokeWidth="2" />
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                    <div id={`faqs-text-${index}`} role="region" aria-labelledby={`faqs-title-${index}`} className={`grid text-sm text-slate-600 overflow-hidden transition-all duration-300 ease-in-out ${expandedIndex === index ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
+                                    >
+                                        <div className="overflow-hidden">
+                                            <p className={`pb-4 text-dark opacity-70 font-kanit font-light text-base max-w-[679px] ${expandedIndex === index ? 'text-color' : ''}`}>{faqitem.content}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
-
             </div>
         </div>
-
     )
 }
 
