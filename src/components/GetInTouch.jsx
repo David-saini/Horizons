@@ -47,7 +47,6 @@ const GetInTouch = () => {
         <div className='max-w-[1440px] mx-auto pt-8 pb-12 md:pt-14 md:pb-[70px] xl:py-20'>
             <div className="max-w-[1140px] px-5 md:px-3 mx-auto">
                 <div className='flex lg:flex-row flex-col items-center justify-center gap-6 sm:gap-[55px] md:gap-[65px] lg:gap-[84px]'>
-
                     {/*========================== informative_card ===============================*/}
                     <div className='max-w-[464px] sm:max-w-[500px] w-full mx-auto sm:mx-0' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <div className='max-w-[464px] w-full rounded-[16px] sm:min-h-[458px] bg-lightgreen p-4 sm:px-0 sm:py-8'>
@@ -87,7 +86,6 @@ const GetInTouch = () => {
                             </div>
                         </div>
                     </div>
-
                     {/*================================= form_div ==================================================*/}
                     <div className='max-w-[700px] w-full lg:max-w-[461px]' data-aos="fade-left" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                         <form onSubmit={submitBtn}>
@@ -128,9 +126,7 @@ const GetInTouch = () => {
                             <div className='flex items-center justify-center'>
                                 <button onClick={(e) => submitBtn(e)} type="submit" className='w-full max-w-[461px] h-[52px] rounded-[16px] bg-lightgreen text-white1 font-kanit font-medium text-base leading-[150%] mt-6 sm:mt-8 hover:bg-black duration-300'>Submit</button>
                             </div>
-
                             <ToastContainer />
-
                         </form>
                     </div>
 

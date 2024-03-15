@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from "../assets/image/webp/Logo.webp";
 import FooterLine from "../assets/image/webp/Footerline.webp";
-import { Link } from 'react-router-dom';
 import { FacebookIcon, InstagramIcon, LinkedInIcon, TwitterIcon, YoutubeIcon } from './Common/Icons';
 
 // Footer component definition
@@ -13,21 +12,21 @@ const Footer = () => {
             <div className="max-w-[1440px] mx-auto pt-12 sm:pt-[55px] md:pt-[66px]">
                 <div className="flex items-center flex-col justify-center">
                     {/* Link to home page with logo */}
-                    <Link className='flex flex-col items-center text-lightgreen'>
+                    <a href='#logo' className='flex flex-col items-center text-lightgreen'>
                         <img className='w-[60px] md:w-[84.6px]' src={Logo} alt="Logo" />
                         <p className='text-base md:text-lg font-kanit font-bold leading-[150%]'>Horizon</p>
-                    </Link>
+                    </a>
 
                     {/* Description */}
                     <p className='text-white max-w-[574px] opacity-60 font-kanit font-light text-base leading-[150%] text-center my-5 sm:my-6'>Lorem ipsum dolor sit amet consectetur. Amet lobortis auctor ultricies consectetur. Vulputate lobortis aliquet pellentesque integer habitasse.</p>
 
                     {/* Social media icons */}
                     <div className='flex items-center justify-center gap-6'>
-                        <Link><TwitterIcon /></Link>
-                        <Link><FacebookIcon /></Link>
-                        <Link><InstagramIcon /></Link>
-                        <Link><LinkedInIcon /></Link>
-                        <Link><YoutubeIcon /></Link>
+                        <a target='_blank' href="https://twitter.com/"><TwitterIcon /></a>
+                        <a target='_blank' href="https://www.facebook.com/"><FacebookIcon /></a>
+                        <a target='_blank' href="https://www.instagram.com/"><InstagramIcon /></a>
+                        <a target='_blank' href="https://www.linkedin.com/in/cherylfriedlander/"><LinkedInIcon /></a>
+                        <a target='_blank' href="https://www.youtube.com/user/youtube"><YoutubeIcon /></a>
                     </div>
 
                     {/* Footer links */}

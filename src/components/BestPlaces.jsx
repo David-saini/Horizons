@@ -1,8 +1,8 @@
 import React from 'react'
-import Camera from "../assets/image/webp/CameraImg.webp"
+import Camera from "../assets/image/webp/CameraVector.webp"
 import PlaneVector from "../assets/image/webp/PlaneVector.webp"
 import CommonButton from './CommonButton';
-import { PlacesCards } from './CardContent';
+import { PlacesCards } from './Common/Helper';
 const BestPlaces = () => {
     return (
         <div className='max-w-[1440px] mx-auto py-12 sm:py-16 md:py-[70px] mt-20 md:mt-24 xl:py-[120px] relative' id='Destinations'>

@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { SliderNextbtn, SliderPrevbtn } from './Common/Icons';
-import { TestimonialCards } from './CardContent';
+import { TestimonialCards } from './Common/Helper';
 // Define the Explore functional component
 const Explore = () => {
     // Function to go to the next slide

@@ -1,7 +1,6 @@
 import React from 'react'
 import HeaderVector from "../assets/image/webp/HeaderVector.webp"
 import LocationIcon from "../assets/image/webp/LocationIcon.webp"
-import Headervector from "../assets/image/svg/HeaderVector.svg"
 import CelenderIcon from "../assets/image/png/CelenderIcon.png"
 import PeopleIcon from "../assets/image/webp/GroupIcon.png"
 import Search from "../assets/image/webp/Search.webp"
@@ -9,8 +8,7 @@ import Search from "../assets/image/webp/Search.webp"
 const Header = () => {
     return (
         <div className='bg-headerbg min_h_screen !bg-center !bg-cover !bg-no-repeat relative'>
-            {/* <img className='absolute left-[45%] md:left-[42%] top-[12%] md:top-[8%] max-w-[200px] md:max-w-[270px] lg:max-w-[319px] ' src={HeaderVector} alt="HeaderVector" /> */}
-            <img className='absolute left-[45%] md:left-[42%] top-[12%] md:top-[8%] max-w-[200px] md:max-w-[270px] lg:max-w-[319px] ' src={Headervector} alt="HeaderVector" />
+            <img className='absolute left-[45%] md:left-[42%] top-[12%] md:top-[8%] max-w-[200px] md:max-w-[270px] lg:max-w-[319px] ' src={HeaderVector} alt="HeaderVector" />
             <div className='max-w-[1440px] mx-auto'>
                 <div className='max-w-[1164px] px-5 md:px-3 mx-auto'>
                     {/*========================================= header_card ===============================================================*/}

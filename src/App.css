@@ -5,19 +5,19 @@ html {
 }
 
 /*=============================== icon-fill ================================*/
-.footer_icons rect {
+.footer_icons_hov rect {
     fill: #359F35;
 }
 
-.footer_icons path {
+.footer_icons_hov path {
     fill: white;
 }
 
-.footer_icons:hover path {
+.footer_icons_hov:hover path {
     fill: #359F35;
 }
 
-.footer_icons rect:hover {
+.footer_icons_hov rect:hover {
     fill: #fff;
 }
 
@@ -106,7 +106,7 @@ html {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-image: url('./assets/image/png/Selectarrow.png');
+    background-image: url('./assets/image/png/SelectArrow.png');
     background-size: 16px 16px;
     background-repeat: no-repeat;
     background-position: right center;
