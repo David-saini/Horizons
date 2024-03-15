@@ -2,7 +2,7 @@ import React from 'react'
 import BagVector from "../assets/image/webp/BagVector.webp"
 import ShirakawagoVillage from "../assets/image/webp/ShirakawagoVillage.webp"
 import EiffelTower from "../assets/image/webp/EiffelTower.webp"
-import TajMahalImg from "../assets/image/webp/TajMahalImg.webp"
+import TajMahalImg from "../assets/image/webp/BestViewPondOfTajMahal.webp"
 import SnowCloudySky from "../assets/image/webp/SnowCloudySky.webp"
 import VangViengImg from "../assets/image/webp/VangViengImg.webp"
 import ThilandImg from "../assets/image/webp/ThilandImg.webp"

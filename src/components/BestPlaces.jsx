@@ -55,7 +55,7 @@ const BestPlaces = () => {
                                     return (
                                         <div key={i} className='sm:max-w-[300px] md:max-w-[320px] xl:max-w-[364px] min-h-[350px] cursor-pointer duration-300 lg:min-h-[391px] bg-white rounded-[16px] shadow-shadow1 vacation_card p-2' data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="linear">
                                             <div className='border-white border border-solid overflow-hidden rounded-[16px]'>
-                                                <img className='w-full max-w-[348px] duration-300 img' src={obj.Placesimage} alt="Placesimage" />
+                                                <img className='w-full max-w-[348px] duration-300 img h-full' src={obj.Placesimage} alt="Placesimage" />
                                             </div>
                                             <div className='mt-4 lg:mt-6 flex items-center justify-between px-3 lg:px-4'>
                                                 <div className='flex flex-col gap-2'>
